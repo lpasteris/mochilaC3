@@ -1,0 +1,869 @@
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad
+$ mkdir DH
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad
+$ cd DH/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mkdir.exe Peliculas
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls
+Peliculas/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mkdir peliculas/infantiles peliculas/accion peliculas/terror peliculas/comedia peliculas/romanticas
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls
+Peliculas/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+
+./Peliculas/comedia:
+
+./Peliculas/infantiles:
+
+./Peliculas/romanticas:
+
+./Peliculas/terror:
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ pwd
+/g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+
+./Peliculas/comedia:
+
+./Peliculas/infantiles:
+
+./Peliculas/romanticas:
+
+./Peliculas/terror:
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ touch Peliculas/infantiles/intenzamente.txt Peliculas/infantiles/"el juego del miedo.xls" Peliculas/infantiles/"rapido y furioso.pdf" Peliculas/infantiles/titanic.jpg
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+
+./Peliculas/comedia:
+
+./Peliculas/infantiles:
+'el juego del miedo.xls'   intenzamente.txt  'rapido y furioso.pdf'   titanic.jpg
+
+./Peliculas/romanticas:
+
+./Peliculas/terror:
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ touch Peliculas/accion/"smooth criminal.txt" Peliculas/accion/"diario de una pasion.js" Peliculas/accion/"el hexorcista.xls" Peliculas/accion/cars.jpg
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+ cars.jpg  'diario de una pasion.js'  'el hexorcista.xls'  'smooth criminal.txt'
+
+./Peliculas/comedia:
+
+./Peliculas/infantiles:
+'el juego del miedo.xls'   intenzamente.txt  'rapido y furioso.pdf'   titanic.jpg
+
+./Peliculas/romanticas:
+
+./Peliculas/terror:
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ touch Peliculas/terror/"la dama y el bagavundo.png" Peliculas/terror/"yo antes de ti.xls" Peliculas/terror/"que 
+paso ayer.pdf" Peliculas/terror/"we will rock you.js"
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls
+Peliculas/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+ cars.jpg  'diario de una pasion.js'  'el hexorcista.xls'  'smooth criminal.txt'
+
+./Peliculas/comedia:
+
+./Peliculas/infantiles:
+'el juego del miedo.xls'   intenzamente.txt  'rapido y furioso.pdf'   titanic.jpg
+
+./Peliculas/romanticas:
+
+./Peliculas/terror:
+'la dama y el bagavundo.png'  'que paso ayer.pdf'  'we will rock you.js'  'yo antes de ti.xls'
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ touch Peliculas/comedia/madagaskar.js Peliculas/comedia/"orgullo y prejucio.txt" Peliculas/comedia/it.xls Peliculas/comedia/"mision imposible.png"
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+ cars.jpg  'diario de una pasion.js'  'el hexorcista.xls'  'smooth criminal.txt'
+
+./Peliculas/comedia:
+ it.xls   madagaskar.js  'mision imposible.png'  'orgullo y prejucio.txt'
+
+./Peliculas/infantiles:
+'el juego del miedo.xls'   intenzamente.txt  'rapido y furioso.pdf'   titanic.jpg
+
+./Peliculas/romanticas:
+
+./Peliculas/terror:
+'la dama y el bagavundo.png'  'que paso ayer.pdf'  'we will rock you.js'  'yo antes de ti.xls'
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ cd Peliculas/romanticas/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH/Peliculas/romanticas     
+$ touch pocahontas.jpg annabelle.js "los vengadores.js" "la mascara.js"
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH/Peliculas/romanticas     
+$ ls
+ annabelle.js  'la mascara.js'  'los vengadores.js'   pocahontas.jpg
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH/Peliculas/romanticas     
+$ cd ..
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH/Peliculas
+$ cd ..
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+ cars.jpg  'diario de una pasion.js'  'el hexorcista.xls'  'smooth criminal.txt'
+
+./Peliculas/comedia:
+ it.xls   madagaskar.js  'mision imposible.png'  'orgullo y prejucio.txt'
+
+./Peliculas/infantiles:
+'el juego del miedo.xls'   intenzamente.txt  'rapido y furioso.pdf'   titanic.jpg
+
+./Peliculas/romanticas:
+ annabelle.js  'la mascara.js'  'los vengadores.js'   pocahontas.jpg
+
+./Peliculas/terror:
+'la dama y el bagavundo.png'  'que paso ayer.pdf'  'we will rock you.js'  'yo antes de ti.xls'
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+ cars.jpg  'diario de una pasion.js'  'el hexorcista.xls'  'smooth criminal.txt'
+
+./Peliculas/comedia:
+ it.xls   madagaskar.js  'mision imposible.png'  'orgullo y prejucio.txt'
+
+./Peliculas/infantiles:
+'el juego del miedo.xls'   intenzamente.txt  'rapido y furioso.pdf'   titanic.jpg
+
+./Peliculas/romanticas:
+ annabelle.js  'la mascara.js'  'los vengadores.js'   pocahontas.jpg
+
+./Peliculas/terror:
+'la dama y el bagavundo.png'  'que paso ayer.pdf'  'we will rock you.js'  'yo antes de ti.xls'
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls
+Peliculas/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ cd Peliculas/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH/Peliculas
+$ ls -R
+.:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./accion:
+ cars.jpg  'diario de una pasion.js'  'el hexorcista.xls'  'smooth criminal.txt'
+
+./comedia:
+ it.xls   madagaskar.js  'mision imposible.png'  'orgullo y prejucio.txt'
+
+./infantiles:
+'el juego del miedo.xls'   intenzamente.txt  'rapido y furioso.pdf'   titanic.jpg
+
+./romanticas:
+ annabelle.js  'la mascara.js'  'los vengadores.js'   pocahontas.jpg
+
+./terror:
+'la dama y el bagavundo.png'  'que paso ayer.pdf'  'we will rock you.js'  'yo antes de ti.xls'
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH/Peliculas
+$ ls -R
+.:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./accion:
+ cars.jpg  'diario de una pasion.js'  'el hexorcista.xls'  'smooth criminal.txt'
+
+./comedia:
+ it.xls   madagaskar.js  'mision imposible.png'  'orgullo y prejucio.txt'
+
+./infantiles:
+'el juego del miedo.xls'   intenzamente.txt  'rapido y furioso.pdf'   titanic.jpg
+
+./romanticas:
+ annabelle.js  'la mascara.js'  'los vengadores.js'   pocahontas.jpg
+
+./terror:
+'la dama y el bagavundo.png'  'que paso ayer.pdf'  'we will rock you.js'  'yo antes de ti.xls'
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH/Peliculas
+$ ls
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH/Peliculas
+$ cd terror
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH/Peliculas/terror
+$ ls
+'la dama y el bagavundo.png'  'que paso ayer.pdf'  'we will rock you.js'  'yo antes de ti.xls'
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH/Peliculas/terror
+$ cd /g/Mi\ unidad//CTD/B1\ -\ Introduccion\ Informatica//Clase\ 3/Actividad/DH/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls
+Peliculas/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mkdir Peliculas/romanticas/prueba
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ cd Peliculas/romanticas/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH/Peliculas/romanticas     
+$ mkdir ../accion/prueba2
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH/Peliculas/romanticas     
+$ cd ..
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH/Peliculas
+$ cd ..
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+ cars.jpg  'diario de una pasion.js'  'el hexorcista.xls'   prueba2/  'smooth criminal.txt'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+ it.xls   madagaskar.js  'mision imposible.png'  'orgullo y prejucio.txt'
+
+./Peliculas/infantiles:
+'el juego del miedo.xls'   intenzamente.txt  'rapido y furioso.pdf'   titanic.jpg
+
+./Peliculas/romanticas:
+ annabelle.js  'la mascara.js'  'los vengadores.js'   pocahontas.jpg   prueba/
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+'la dama y el bagavundo.png'  'que paso ayer.pdf'  'we will rock you.js'  'yo antes de ti.xls'
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$
+
+############################
+Respuestas punto 9
+
+* si, mkdir peliculas peliculas/infantiles peliculas/accion peliculas/terror peliculas/comedia peliculas/romanticas
+* si, en la carpeta infantiles: touch Intenzamente.txt "El juego del miedo.xls" "Rapido y furioso.pdf" Titanic.jpg
+* mkdir Peliculas/romanticas/prueba
+* mkdir ../accion/prueba2
+
+###############################
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+ cars.jpg  'diario de una pasion.js'  'el hexorcista.xls'   prueba2/  'smooth criminal.txt'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+ it.xls   madagaskar.js  'mision imposible.png'  'orgullo y prejucio.txt'
+
+./Peliculas/infantiles:
+'el juego del miedo.xls'   intenzamente.txt  'rapido y furioso.pdf'   titanic.jpg
+
+./Peliculas/romanticas:
+ annabelle.js  'la mascara.js'  'los vengadores.js'   pocahontas.jpg   prueba/
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+'la dama y el bagavundo.png'  'que paso ayer.pdf'  'we will rock you.js'  'yo antes de ti.xls'
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mv Peliculas/infantiles/"el juego del miedo.xls" Peliculas/terror/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mv Peliculas/infantiles/"rapdio y furioso.pdf" Peliculas/accion/
+mv: cannot stat 'Peliculas/infantiles/rapdio y furioso.pdf': No such file or directory
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mv Peliculas/infantiles/"rapido y furioso.pdf" Peliculas/accion/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mv Peliculas/infantiles/titanic.jpg Peliculas/romanticas/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls Peliculas/infantiles/
+intenzamente.txt
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+ cars.jpg                  'el hexorcista.xls'  'rapido y furioso.pdf'
+'diario de una pasion.js'   prueba2/            'smooth criminal.txt'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+ it.xls   madagaskar.js  'mision imposible.png'  'orgullo y prejucio.txt'
+
+./Peliculas/infantiles:
+intenzamente.txt
+
+./Peliculas/romanticas:
+ annabelle.js  'la mascara.js'  'los vengadores.js'   pocahontas.jpg   prueba/   titanic.jpg
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+'el juego del miedo.xls'      'que paso ayer.pdf'    'yo antes de ti.xls'
+'la dama y el bagavundo.png'  'we will rock you.js'
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mv Peliculas/accion/cars.jpg Peliculas/infantiles/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mv Peliculas/accion/el\ hexorcista.xls Peliculas/terror/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls Peliculas/terror/
+'el hexorcista.xls'       'la dama y el bagavundo.png'  'we will rock you.js'
+'el juego del miedo.xls'  'que paso ayer.pdf'           'yo antes de ti.xls'
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mv Peliculas/accion/diario\ de\ una\ pasion.js Peliculas/romanticas/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+ prueba2/  'rapido y furioso.pdf'  'smooth criminal.txt'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+ it.xls   madagaskar.js  'mision imposible.png'  'orgullo y prejucio.txt'
+
+./Peliculas/infantiles:
+cars.jpg  intenzamente.txt
+
+./Peliculas/romanticas:
+ annabelle.js              'la mascara.js'       pocahontas.jpg   titanic.jpg
+'diario de una pasion.js'  'los vengadores.js'   prueba/
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+'el hexorcista.xls'       'la dama y el bagavundo.png'  'we will rock you.js'
+'el juego del miedo.xls'  'que paso ayer.pdf'           'yo antes de ti.xls'
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mv Peliculas/comedia/it.xls Peliculas/terror/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mv Peliculas/comedia/madagaskar.js Peliculas/infantiles/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mv Peliculas/comedia/mision\ imposible.png Peliculas/accion/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mv Peliculas/comedia/orgullo\ y\ prejucio.txt Peliculas/romanticas/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+'mision imposible.png'   prueba2/  'rapido y furioso.pdf'  'smooth criminal.txt'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+
+./Peliculas/infantiles:
+cars.jpg  intenzamente.txt  madagaskar.js
+
+./Peliculas/romanticas:
+ annabelle.js              'la mascara.js'      'orgullo y prejucio.txt'   prueba/
+'diario de una pasion.js'  'los vengadores.js'   pocahontas.jpg            titanic.jpg
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+'el hexorcista.xls'        it.xls                       'que paso ayer.pdf'    'yo antes de ti.xls'
+'el juego del miedo.xls'  'la dama y el bagavundo.png'  'we will rock you.js'
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mv Peliculas/romanticas/annabelle.js Peliculas/terror/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mv Peliculas/romanticas/la\ mascara.js Peliculas/comedia/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mv Peliculas/romanticas/los\ vengadores.js Peliculas/accion/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mv Peliculas/romanticas/pocahontas.jpg Peliculas/infantiles/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+'los vengadores.js'  'mision imposible.png'   prueba2/  'rapido y furioso.pdf'  'smooth criminal.txt'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+'la mascara.js'
+
+./Peliculas/infantiles:
+cars.jpg  intenzamente.txt  madagaskar.js  pocahontas.jpg
+
+./Peliculas/romanticas:
+'diario de una pasion.js'  'orgullo y prejucio.txt'   prueba/   titanic.jpg
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+ annabelle.js        'el juego del miedo.xls'  'la dama y el bagavundo.png'  'we will rock you.js'
+'el hexorcista.xls'   it.xls                   'que paso ayer.pdf'           'yo antes de ti.xls'
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mv Peliculas/terror/la\ dama\ y\ el\ bagavundo.png  Peliculas/infantiles/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mv Peliculas/terror/que\ paso\ ayer.pdf  Peliculas/comedia/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mv Peliculas/terror/yo\ antes\ de\ ti.xls  Peliculas/romanticas/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+'los vengadores.js'  'mision imposible.png'   prueba2/  'rapido y furioso.pdf'  'smooth criminal.txt'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+'la mascara.js'  'que paso ayer.pdf'
+
+./Peliculas/infantiles:
+ cars.jpg   intenzamente.txt  'la dama y el bagavundo.png'   madagaskar.js   pocahontas.jpg
+
+./Peliculas/romanticas:
+'diario de una pasion.js'  'orgullo y prejucio.txt'   prueba/   titanic.jpg  'yo antes de ti.xls'
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+ annabelle.js  'el hexorcista.xls'  'el juego del miedo.xls'   it.xls  'we will rock you.js'
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+'los vengadores.js'  'mision imposible.png'   prueba2/  'rapido y furioso.pdf'  'smooth criminal.txt'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+'la mascara.js'  'que paso ayer.pdf'
+
+./Peliculas/infantiles:
+ cars.jpg   intenzamente.txt  'la dama y el bagavundo.png'   madagaskar.js   pocahontas.jpg
+
+./Peliculas/romanticas:
+'diario de una pasion.js'  'orgullo y prejucio.txt'   prueba/   titanic.jpg  'yo antes de ti.xls'
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+ annabelle.js  'el hexorcista.xls'  'el juego del miedo.xls'   it.xls  'we will rock you.js'
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mv Peliculas/infantiles/intenzamente.txt Peliculas/infantiles/intesa-mente.txt
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+'los vengadores.js'  'mision imposible.png'   prueba2/  'rapido y furioso.pdf'  'smooth criminal.txt'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+'la mascara.js'  'que paso ayer.pdf'
+
+./Peliculas/infantiles:
+ cars.jpg   intesa-mente.txt  'la dama y el bagavundo.png'   madagaskar.js   pocahontas.jpg
+
+./Peliculas/romanticas:
+'diario de una pasion.js'  'orgullo y prejucio.txt'   prueba/   titanic.jpg  'yo antes de ti.xls'
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+ annabelle.js  'el hexorcista.xls'  'el juego del miedo.xls'   it.xls  'we will rock you.js'
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mv Peliculas/infantiles/la\ dama\ y\ el\ bagavundo.png Peliculas/infantiles/"la dama y el vagabundo.png"
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+'los vengadores.js'  'mision imposible.png'   prueba2/  'rapido y furioso.pdf'  'smooth criminal.txt'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+'la mascara.js'  'que paso ayer.pdf'
+
+./Peliculas/infantiles:
+ cars.jpg   intesa-mente.txt  'la dama y el vagabundo.png'   madagaskar.js   pocahontas.jpg
+
+./Peliculas/romanticas:
+'diario de una pasion.js'  'orgullo y prejucio.txt'   prueba/   titanic.jpg  'yo antes de ti.xls'
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+ annabelle.js  'el hexorcista.xls'  'el juego del miedo.xls'   it.xls  'we will rock you.js'
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mv Peliculas/infantiles/madagaskar.js Peliculas/infantiles/madagascar.js
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ mv Peliculas/terror/el\ hexorcista.xls Peliculas/terror/"el exorcista.xls"
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+'los vengadores.js'  'mision imposible.png'   prueba2/  'rapido y furioso.pdf'  'smooth criminal.txt'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+'la mascara.js'  'que paso ayer.pdf'
+
+./Peliculas/infantiles:
+ cars.jpg   intesa-mente.txt  'la dama y el vagabundo.png'   madagascar.js   pocahontas.jpg
+
+./Peliculas/romanticas:
+'diario de una pasion.js'  'orgullo y prejucio.txt'   prueba/   titanic.jpg  'yo antes de ti.xls'
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+ annabelle.js  'el exorcista.xls'  'el juego del miedo.xls'   it.xls  'we will rock you.js'
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ rm Peliculas/accion/smooth\ criminal.txt Peliculas/terror/we\ will\ rock\ you.js 
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+'los vengadores.js'  'mision imposible.png'   prueba2/  'rapido y furioso.pdf'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+'la mascara.js'  'que paso ayer.pdf'
+
+./Peliculas/infantiles:
+ cars.jpg   intesa-mente.txt  'la dama y el vagabundo.png'   madagascar.js   pocahontas.jpg
+
+./Peliculas/romanticas:
+'diario de una pasion.js'  'orgullo y prejucio.txt'   prueba/   titanic.jpg  'yo antes de ti.xls'
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+ annabelle.js  'el exorcista.xls'  'el juego del miedo.xls'   it.xls
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ touch Peliculas/accion/prueba2/noBorrar.js
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+'los vengadores.js'  'mision imposible.png'   prueba2/  'rapido y furioso.pdf'
+
+./Peliculas/accion/prueba2:
+noBorrar.js
+
+./Peliculas/comedia:
+'la mascara.js'  'que paso ayer.pdf'
+
+./Peliculas/infantiles:
+ cars.jpg   intesa-mente.txt  'la dama y el vagabundo.png'   madagascar.js   pocahontas.jpg
+
+./Peliculas/romanticas:
+'diario de una pasion.js'  'orgullo y prejucio.txt'   prueba/   titanic.jpg  'yo antes de ti.xls'
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+ annabelle.js  'el exorcista.xls'  'el juego del miedo.xls'   it.xls
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ cd Peliculas/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH/Peliculas
+$ mv accion/prueba2/noBorrar.js romanticas/prueba/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH/Peliculas
+$ ls -R
+.:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./accion:
+'los vengadores.js'  'mision imposible.png'   prueba2/  'rapido y furioso.pdf'
+
+./accion/prueba2:
+
+./comedia:
+'la mascara.js'  'que paso ayer.pdf'
+
+./infantiles:
+ cars.jpg   intesa-mente.txt  'la dama y el vagabundo.png'   madagascar.js   pocahontas.jpg
+
+./romanticas:
+'diario de una pasion.js'  'orgullo y prejucio.txt'   prueba/   titanic.jpg  'yo antes de ti.xls'
+
+./romanticas/prueba:
+noBorrar.js
+
+./terror:
+ annabelle.js  'el exorcista.xls'  'el juego del miedo.xls'   it.xls
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH/Peliculas
+$ cd ..
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ touch camadax.txt
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ cd Peliculas/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH/Peliculas
+$ mv terror/it.xls infantiles/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH/Peliculas
+$ cd ..
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ ls -R
+.:
+camadax.txt  Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+'los vengadores.js'  'mision imposible.png'   prueba2/  'rapido y furioso.pdf'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+'la mascara.js'  'que paso ayer.pdf'
+
+./Peliculas/infantiles:
+ cars.jpg   intesa-mente.txt   it.xls  'la dama y el vagabundo.png'   madagascar.js   pocahontas.jpg
+
+./Peliculas/romanticas:
+'diario de una pasion.js'  'orgullo y prejucio.txt'   prueba/   titanic.jpg  'yo antes de ti.xls'
+
+./Peliculas/romanticas/prueba:
+noBorrar.js
+
+./Peliculas/terror:
+ annabelle.js  'el exorcista.xls'  'el juego del miedo.xls'
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH
+$ cd Peliculas/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH/Peliculas
+$ rm ../camadax.txt 
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH/Peliculas
+$ rm -r romanticas/prueba/
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH/Peliculas
+$ ls -R
+.:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./accion:
+'los vengadores.js'  'mision imposible.png'   prueba2/  'rapido y furioso.pdf'
+
+./accion/prueba2:
+
+./comedia:
+'la mascara.js'  'que paso ayer.pdf'
+
+./infantiles:
+ cars.jpg   intesa-mente.txt   it.xls  'la dama y el vagabundo.png'   madagascar.js   pocahontas.jpg
+
+./romanticas:
+'diario de una pasion.js'  'orgullo y prejucio.txt'   titanic.jpg  'yo antes de ti.xls'
+
+./terror:
+ annabelle.js  'el exorcista.xls'  'el juego del miedo.xls'
+
+jewne@PCKihu MINGW64 /g/Mi unidad/CTD/B1 - Introduccion Informatica/Clase 3/Actividad/DH/Peliculas
