@@ -1,0 +1,13 @@
+¿Quien invento GIT y por qué?
+R: GIT fue creado por Linus torvalds, pensando en la eficiencia y confiabilidad del mantenimiento de aplicaciones , para coordinar el trabajo en grupos , ademas de llevar un registro delos cambios en los archivos.
+
+
+¿A quien pertenece actualmente GITHUB y por qué?
+R: GITHUB pertenece a Microsoft desde que su C.E.O Satya Nadella comenzo a adoptar una nueva estrategia abriendose al mundo del software libre , a otras plataformas y servicios.
+
+Otro motivo de peso es Microsoft AZURE su servicio en la nube , para asi podeer competir contra otros clouds services , ademas de estar en contacto directo con sus desarrolladores, para asi atender sus necesidades y ofrecer herramientas que faciliten la integracion con AZURE.
+
+¿Hay otra forma que no sea la terminal para trabajar con GITHU?
+La unica forma que pude encontrar de subir un repositorio a GITHUB ademas de el uso de la terminal es haciendolo desde la misma pagina de GITHUb , pero no se puede tener la interactividad de poder bajar proyectos modificados o crear nuevas ramas para crear funciones que no alteren o rompan el funcionamiento del proyecto en la branch principal (main)
+esas son las preguntas
+las saque de otro repositori
