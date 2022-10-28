@@ -1,0 +1,179 @@
+"Respuesta pregunta 9, bullet point 1,2"
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas
+$ ls -R
+.:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Accion:
+
+./Comedia:
+IT.xls  Madagaskar.js  Mission_Imposible.png  Orgullo_y_prejuicio.txt
+
+./Infantiles:
+El_juego_del_miedo.xls  Intenzamente.txt  Rapido_y_furioso.pdf  Titanic.jpg
+
+./Romanticas:
+Annables.js  La_mascara.js  Los_Vengadores.js  Pocahontas.jpg
+
+./Terror:
+La_Dama_y_el_vagabundo.png  Que_paso_ayer.pdf  We_will_rock_you.js  Yo_antes_de_ti.xls
+
+"Respuesta pregunta 9, bulletpoint 3"
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD
+$ mkdir peliculas/Romanticas/Pruebas
+
+"Respuesta pregunta 9, bulletpoint 4"
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Romanticas
+$ pwd
+/c/Users/Luciano/HD/peliculas/Romanticas
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Romanticas
+$ mv Romanticas/../Accion/Prueba2
+mv: missing destination file operand after 'Romanticas/../Accion/Prueba2'
+Try 'mv --help' for more information.
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Romanticas
+$ touch peliculas/Accion/Prueba2
+touch: cannot touch 'peliculas/Accion/Prueba2': No such file or directory
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Romanticas
+$ touch C:/Users/Luciano/HD/peliculas/Accion/Prueba2
+
+"Respuestas Diapositiva Numero 10, 2"
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD
+$ mv C:/Users/Luciano/HD/peliculas/Romanticas/Annables.js C:/Users/Luciano/HD/peliculas/Terror
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD
+$ mv cd C:/Users/Luciano/HD/peliculas/Terror
+mv: cannot stat 'cd': No such file or directory
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD
+$ cd C:/Users/Luciano/HD/peliculas/Terror
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Terror
+$ mv Annables.js Annabelle.js
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Terror
+$ mv C:/Users/Luciano/HD/peliculas/Terror/La_Dama_y_el_vagabundo.png C:/Users/Luciano/HD/peliculas/Infantiles
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Terror
+$ mv C:/Users/Luciano/HD/peliculas/Terror/Que_paso_ayer.pdf C:/Users/Luciano/HD/peliculas/Comedia
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Terror
+$ mv /Terror/../Romanticas/Los_Vengadores.js C:/Users/Luciano/HD/peliculas/Accion
+mv: cannot stat '/Terror/../Romanticas/Los_Vengadores.js': No such file or directory
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Terror
+$ mv Terror/../Romanticas/Los_vengadores.js C:/Users/Luciano/HD/peliculas/Accion
+mv: cannot stat 'Terror/../Romanticas/Los_vengadores.js': No such file or directory
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Terror
+$ mv C:/Users/Luciano/HD/peliculas/Romanticas/Los_vengadores.js C:/Users/Luciano/HD/peliculas/Accion
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Terror
+$ mv C:/Users/Luciano/HD/peliculas/Romanticas/La_mascara.js C:/Users/Luciano/HD/peliculas/Comedia
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Terror
+$ mv C:/Users/Luciano/HD/peliculas/Comedia/Madagaskar.js C:/Users/Luciano/HD/peliculas/Infantiles
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Terror
+$ mv C:/Users/Luciano/HD/peliculas/Comedia/Mission_Imposible.png C:/Users/Luciano/HD/peliculas/Accion
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Terror
+$ mv C:/Users/Luciano/HD/peliculas/Comedia/Orgullo_y_prejuicio.txt C:/Users/Luciano/HD/peliculas/Romanticas/ Diario_de_una_pasion.js
+mv: target 'Diario_de_una_pasion.js' is not a directory
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Terror
+$ mv C:/Users/Luciano/HD/peliculas/Comedia/Orgullo_y_prejuicio.txt C:/Users/Luciano/HD/peliculas/Romanticas/
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Terror
+$ mv C:/Users/Luciano/HD/peliculas/Comedia/IT.xls C:/Users/Luciano/HD/peliculas/Infantiles
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Terror
+$ mv C:/Users/Luciano/HD/peliculas/Comedia/Que_paso_ayer.pdf C:/Users/Luciano/HD/peliculas/Comedia
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Terror
+$ touch C:/Users/Luciano/HD/peliculas/Accion/Diario_de_una_pasion.js 
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Terror
+$ mv C:/Users/Luciano/HD/peliculas/Accion/Diario_de_una_pasion.js C:/Users/Luciano/HD/peliculas/Romanticas
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Terror
+$ mv C:/Users/Luciano/HD/peliculas/Infantiles/El_juego_del_miedo.xls C:/Users/Luciano/HD/peliculas/Terror
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Terror
+$ mv C:/Users/Luciano/HD/peliculas/Infantiles/Rapido_y_furioso.pdf C:/Users/Luciano/HD/peliculas/Accion
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Terror
+$ mv C:/Users/Luciano/HD/peliculas/Infantiles/Titanic.jpg C:/Users/Luciano/HD/peliculas/Romanticas
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas/Terror
+$ mv C:/Users/Luciano/HD/peliculas/Romanticas/Pocahontas.jpg C:/Users/Luciano/HD/peliculas/Infantiles
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD
+$ mv C:/Users/Luciano/HD/peliculas/Terror/Yo_antes_de_ti.xls C:/Users/Luciano/HD/peliculas/Comedia
+
+"Respuestas Diapositiva Numero 10, 3"
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD
+$ mv peliculas/Infantiles/Intenzamente.txt peliculas/Infantiles/Intensamente.txt 
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD
+$ mv peliculas/Infantiles/Madagaskar.js peliculas/Infantiles/Madagascar.js
+
+"Respuestas Diapositiva Numero 10, 4"
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD
+$ rm C:/Users/Luciano/HD/peliculas/Terror/We_will_rock_you.js C:/Users/Luciano/HD/peliculas/Infantiles/IT.xls
+
+
+"Respuestas Diapositiva Numero 10, 5"
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD
+$ mkdir peliculas/Accion/Prueba2 touch peliculas/Accion/Prueba2/noBorrar.js
+mkdir: cannot create directory ‘touch’: File exists
+
+"Respuestas Diapositiva Numero 10, 6"
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD
+$ cd peliculas/
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas
+$ mv Accion/Prueba2/noBorrar.js/ Romanticas/Pruebas/
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas
+$
+
+"Respuestas Diapositiva Numero 10, 7"
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD
+$ touch camadax.txt
+
+"Respuestas Diapositiva Numero 10, 8"
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD
+$ cd peliculas/
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas
+$ move IT.xls Infantiles/
+bash: move: command not found
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas
+$ mv IT.xls Infantiles/
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas
+$
+
+"Respuestas Diapositiva Numero 10, 9"
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas
+$ rm ../camadax.txt
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas
+$
+
+"Respuestas Diapositiva Numero 10, 10"
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas
+$ rm -R Romanticas/Pruebas
+
+Luciano@DESKTOP-B5O7L9D MINGW64 ~/HD/peliculas
+$
