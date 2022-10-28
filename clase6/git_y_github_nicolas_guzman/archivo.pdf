@@ -1,0 +1,14 @@
+pwd - Posicionamiento dentro de la consola
+ls  - Lista con el contenido de una carpeta
+cd  - Entrar a una carpeta
+clear - Limpiar la pantalla de la terminal
+mkdir - Crear un directorio
+touch - Crea un archivo
+RM  - Elimina un archivo
+mv  - mueve o renombra a un archivo
+git init - Inicializa un repositorio
+git add - Agrega cambios al working directory 
+git push -  Carga contenido del repositorio local a un repositorio remoto 
+git commit - Confirma una instantanea del directorio del entorno de ensayo en el historial de 
+confirmaciones de los repositorios
+git pull - Descarga los archivos del reposotorio remoto al local
