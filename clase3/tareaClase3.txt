@@ -198,3 +198,154 @@ PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/romanticas
 $ mkdir ../accion/Prueba2
 
 PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/romanticas
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ mv Cars.jpg /infantiles
+mv: cannot stat 'Cars.jpg': No such file or directory       
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ cd peliculas/accion
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/accion
+$ mv Cars.jpg ../infantiles
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/acci
+
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ cd peliculas/accion
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/comedia 
+$ mv "Mision imposible.png" ../accion
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/comedia 
+$ mv "orgullo y prejuicio.txt" ../romanticas/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/comedia
+$ cd ../infantiles/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/infantiles
+$ mv "El juego del miedo.xls" ../terror/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/infantiles
+$ mv "Rapido y furiosos.pdf" ../accion/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/infantiles
+$ mv Titanic.jpg ../romanticas/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/infantiles
+$ cd ../romanticas/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/romanticas
+$ mv annabelle.js ../terror/ "La mascara.js" ../comedia/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/romanticas
+$ mv "Los vengadores.js" ../accion/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/romanticas
+$ mv pocahontas.jpg ../infantiles/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/romanticas
+$ cd ../terror/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/terror  
+$ mv "La dama y el bagavundo.png" ../infantiles/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/terror  
+$ mv "Que paso ayer.pdf" ../comedia/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/terror  
+$ mv "yo antes de ti.xls" ../romanticas/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/terror  
+$ cd ../../
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ mv madagaskar.js madagascar.js
+mv: cannot stat 'madagaskar.js': No such file or directory
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ mv peliculas/infantiles/ madagaskar.js madagascar.js
+mv: target 'madagascar.js' is not a directory
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ cd peliculas/infantiles/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/infantiles
+$ mv madagaskar.js madagascar.js
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/infantiles
+$ mv intenzamente.txt  intensamente.txt
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/infantiles
+$ cd ../terror/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/terror  
+$ mv "El hexorcista.xls" "El exorcista.xls"
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/terror  
+$ cd ../infantiles/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/infantiles
+$ mv "La dama y el bagavundo.png" "La dama y el vagabundo.png"  
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/infantiles
+$ cd ../..
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ rm -l "smooth criminal.txt"
+rm: unknown option -- l
+Try 'rm --help' for more information.
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ rm -i "smooth criminal.txt"
+rm: cannot remove 'smooth criminal.txt': No such file or directory
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ rm -i peliculas/accion/ "smooth criminal.txt"
+rm: cannot remove 'peliculas/accion/': Is a directory
+rm: cannot remove 'smooth criminal.txt': No such file or directory
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ rm -i "smooth criminal.txt" peliculas/accion/
+rm: cannot remove 'smooth criminal.txt': No such file or directory
+rm: cannot remove 'peliculas/accion/': Is a directory
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ rm peliculas/accion/"smooth criminal.txt" peliculas/terror/"We will rock you.js"
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ touch peliculas/accion/Prueba2/noBorrar.js
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ cd peliculas/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas
+$ mv accion/Prueba2/noBorrar.js romanticas/Prueba/noBorrar.js 
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas
+$ cd ..
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ touch camada.txt
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ cd peliculas/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas
+$ mv terror/IT.xls infantiles/IT.xls
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas
+$ rm ../camada.txt
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas
+$ rm romanticas/Prueba/
+rm: cannot remove 'romanticas/Prueba/': Is a directory
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas
+$ rm -r romanticas/Prueba/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas
+$
