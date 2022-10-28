@@ -1,0 +1,351 @@
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio
+$ mkdir dh dh/peliculas dh/peliculas/infantiles dh/peliculas/accion dh/peliculas/terror dh/peliculas/comedia dh/peliculas/romanticas
+mkdir: cannot create directory ‘dh’: File exists
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio
+$ cd dh
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh
+$ ls
+peliculas/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh
+$ touch dh/peliculas/infantiles intenzamente.txt "EL juego del miedo.xls" "Rapido y jugoso.pdf" titanic.jpg
+touch: cannot touch 'dh/peliculas/infantiles': No such file or directory
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh
+$ touch dh/peliculas/infantiles intenzamente.txt
+touch: cannot touch 'dh/peliculas/infantiles': No such file or directory
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh
+$ cd peliculas
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas
+$ ls
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas
+$ touch infantiles intenzamente.txt
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas
+$ ls
+accion/  comedia/  infantiles/  intenzamente.txt  romanticas/  terror/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas
+$ rm -f intenzamente.txt
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas
+$ ls
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas
+$ cd infantiles
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/infantiles
+$ touch intenzamente.txt "El juego del miedo.xls"
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/infantiles
+$ ls
+'El juego del miedo.xls'   intenzamente.txt
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/infantiles
+$ touch "Rapido y furiosos.pdf" Titanic.jpg
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/infantiles
+$ ls
+'El juego del miedo.xls'  'Rapido y furiosos.pdf'   Titanic.jpg   intenzamente.txt
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/infantiles
+$ cd ..
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas
+$ cd accion
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/accion
+$ touch "smooth criminal.txt" "Diario de una pasion.js" "El hexorcista.xls" Cars.jpg
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/accion
+$ cd peliculas
+bash: cd: peliculas: No such file or directory
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/accion
+$ cd ..
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas
+$ cd terror
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/terror
+$ touch "La dama y el bagavundo.png" "yo antes de ti.xls" "Que paso ayer.pdf" "We will rock you.js"
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/terror
+$ cd ..
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas
+$ cd comedia
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/comedia
+$ touch madagaskar.js "orgullo y prejuicio.txt" IT.xls "Mision imposible.png"
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/comedia
+$ cd ..
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas
+$ cd romantica
+bash: cd: romantica: No such file or directory
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas
+$ cd Romantica
+bash: cd: Romantica: No such file or directory
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas
+$ cd romanticas
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/romanticas
+$ touch pocahontas.jpg annabelle.js "Los vengadores.js" "La mascara.js"
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/romanticas
+$ cd ..
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas
+$ ls -R
+.:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./accion:
+ Cars.jpg  'Diario de una pasion.js'  'El hexorcista.xls'  'smooth criminal.txt'
+
+./comedia:
+ IT.xls  'Mision imposible.png'   madagaskar.js  'orgullo y prejuicio.txt'
+
+./infantiles:
+'El juego del miedo.xls'  'Rapido y furiosos.pdf'   Titanic.jpg   intenzamente.txt
+
+./romanticas:
+'La mascara.js'  'Los vengadores.js'   annabelle.js   pocahontas.jpg
+
+./terror:
+'La dama y el bagavundo.png'  'Que paso ayer.pdf'  'We will rock you.js'  'yo antes de ti.xls'
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas
+$ ls
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas
+$ mkdir accion
+mkdir: cannot create directory ‘accion’: File exists
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas
+$ mkdir accion comedia infantiles romanticas terror
+mkdir: cannot create directory ‘accion’: File exists
+mkdir: cannot create directory ‘comedia’: File exists
+mkdir: cannot create directory ‘infantiles’: File exists
+mkdir: cannot create directory ‘romanticas’: File exists
+mkdir: cannot create directory ‘terror’: File exists
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas
+$ touch infantiles/ intenzamente.txt "EL juego del miedo.xls" "Rapido y furiosos.pdf" Titanic.jpg
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas
+$ ls
+'EL juego del miedo.xls'   Titanic.jpg   comedia/      intenzamente.txt   terror/
+'Rapido y furiosos.pdf'    accion/       infantiles/   romanticas/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas
+$ rm -f intenzamente.txt "El juego del miedo.xls" "Rapido y furiosos.pdf" Titanic.jpg
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas
+$ ls
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas
+$ cd infantiles
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/infantiles
+$ touch ^C
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/infantiles
+$ touch intenzamente.txt "El juego del miedo.xls" "Rapido y furiosos.pdf" Titanic.jpg
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/infantiles
+$ ls
+'El juego del miedo.xls'  'Rapido y furiosos.pdf'   Titanic.jpg   intenzamente.txt
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/infantiles
+$ cd ..
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas
+$ cd ..
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh
+$ mkdir peliculas/romanticas/Prueba
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh
+$ cd peliculas/romanticas/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/romanticas
+$ mkdir dh/peliculas/accion/Prueba2
+mkdir: cannot create directory ‘dh/peliculas/accion/Prueba2’: No such file or directory
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/romanticas
+$ peliculas/accion/Prueba2
+bash: peliculas/accion/Prueba2: No such file or directory
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/romanticas
+$ mkdir peliculas/accion/Prueba2
+mkdir: cannot create directory ‘peliculas/accion/Prueba2’: No such file or directory
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/romanticas
+$ mkdir ../accion/Prueba2
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/dh/peliculas/romanticas
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ mv Cars.jpg /infantiles
+mv: cannot stat 'Cars.jpg': No such file or directory       
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ cd peliculas/accion
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/accion
+$ mv Cars.jpg ../infantiles
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/acci
+
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ cd peliculas/accion
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/comedia 
+$ mv "Mision imposible.png" ../accion
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/comedia 
+$ mv "orgullo y prejuicio.txt" ../romanticas/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/comedia
+$ cd ../infantiles/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/infantiles
+$ mv "El juego del miedo.xls" ../terror/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/infantiles
+$ mv "Rapido y furiosos.pdf" ../accion/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/infantiles
+$ mv Titanic.jpg ../romanticas/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/infantiles
+$ cd ../romanticas/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/romanticas
+$ mv annabelle.js ../terror/ "La mascara.js" ../comedia/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/romanticas
+$ mv "Los vengadores.js" ../accion/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/romanticas
+$ mv pocahontas.jpg ../infantiles/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/romanticas
+$ cd ../terror/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/terror  
+$ mv "La dama y el bagavundo.png" ../infantiles/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/terror  
+$ mv "Que paso ayer.pdf" ../comedia/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/terror  
+$ mv "yo antes de ti.xls" ../romanticas/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/terror  
+$ cd ../../
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ mv madagaskar.js madagascar.js
+mv: cannot stat 'madagaskar.js': No such file or directory
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ mv peliculas/infantiles/ madagaskar.js madagascar.js
+mv: target 'madagascar.js' is not a directory
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ cd peliculas/infantiles/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/infantiles
+$ mv madagaskar.js madagascar.js
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/infantiles
+$ mv intenzamente.txt  intensamente.txt
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/infantiles
+$ cd ../terror/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/terror  
+$ mv "El hexorcista.xls" "El exorcista.xls"
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/terror  
+$ cd ../infantiles/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/infantiles
+$ mv "La dama y el bagavundo.png" "La dama y el vagabundo.png"  
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas/infantiles
+$ cd ../..
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ rm -l "smooth criminal.txt"
+rm: unknown option -- l
+Try 'rm --help' for more information.
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ rm -i "smooth criminal.txt"
+rm: cannot remove 'smooth criminal.txt': No such file or directory
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ rm -i peliculas/accion/ "smooth criminal.txt"
+rm: cannot remove 'peliculas/accion/': Is a directory
+rm: cannot remove 'smooth criminal.txt': No such file or directory
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ rm -i "smooth criminal.txt" peliculas/accion/
+rm: cannot remove 'smooth criminal.txt': No such file or directory
+rm: cannot remove 'peliculas/accion/': Is a directory
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ rm peliculas/accion/"smooth criminal.txt" peliculas/terror/"We will rock you.js"
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ touch peliculas/accion/Prueba2/noBorrar.js
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ cd peliculas/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas
+$ mv accion/Prueba2/noBorrar.js romanticas/Prueba/noBorrar.js 
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas
+$ cd ..
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ touch camada.txt
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH
+$ cd peliculas/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas
+$ mv terror/IT.xls infantiles/IT.xls
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas
+$ rm ../camada.txt
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas
+$ rm romanticas/Prueba/
+rm: cannot remove 'romanticas/Prueba/': Is a directory
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas
+$ rm -r romanticas/Prueba/
+
+PC@PCCarlos MINGW64 /d/OneDrive/Escritorio/DH/peliculas
+$
