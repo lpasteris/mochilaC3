@@ -1,0 +1,8 @@
+¿Quien invento GIT y por qué?
+R:  Linus Torvalds para poder albergar varias lineas de codigo, se pueden hacer copias de los procesos de un proyecto ,tambien conectar con mas copa1 compañeros.
+
+¿A quien pertenece actualmente GITHUB y por qué?
+R: GITHUB pertenece a Microsoft desde que su C.E.O Satya Nadella comenzo a adoptar una nueva estrategia abriendose al mundo del software libre , a otras plataformas y servicios.
+
+¿Hay otra forma que no sea la terminal para trabajar con GITHUH?
+R: Vscode creo que es la unica forma , pero siempre es bueno tener la terminar abierta
