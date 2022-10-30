@@ -1,8 +1,0 @@
-1. git init: crear repositorio
-2. git add ..: agregar todos los archivos al Working directoryo
-3. git commit -m "nombreCommit": crear nuevo commit
-4. git push -u origin main: Subir los commits al repositorio remoto.
-5. git pull -u origin main: Bajar los commits al repositorio local.
-6. git branch nombreBranch: Crear nueva rama
-7. pwd: Posicionamiento dentro de la consola
-8. 
