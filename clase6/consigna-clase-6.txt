@@ -1,0 +1,58 @@
+Crear un repositorio local
+  git init
+
+Establecer el nombre de usuario
+  git config user.name <nombreUsuario>
+
+Establecer el mail del usuario    
+  git config user.email <mailUsuario>
+
+Si quiero establecer nombre usuario y mail para todos los repositorios locales
+  git config --global user.name <nombreUsuario>
+  git config --global user.email <mailUsuario>
+
+Conocer el estado de los archivos (Untracked, Added, Modified, Deleted)
+  git status
+
+Agregar un archivo a la Staging Area
+  git add <nombre_archivo>
+
+Agregar todos los archivos a la Staging Area
+  git add .
+
+Confirmar el paso de los archivos del Staging Area al repo local
+  git commit -m "Mensaje del commit"
+
+Asociar un repositorio remoto al repositorio local
+  git remote add origin https://dominio.com/usuario/nombreRepositorio.git
+
+Cambiar nombre de la rama actual
+  git branch -M <nuevo_nombre_rama>
+
+Traer los cambios que hayan en el repositorio remoto al repo local
+  git pull origin <nombre_rama>
+
+Subir cambios a repositorio remoto
+  git push origin <nombre_rama>
+
+Crear una nueva rama
+  git branch <nombre_rama>
+
+Listar las ramas existentes
+  git branch
+
+Cambiar a una rama diferente de la actual
+  git checkout <nombre_rama>
+
+Combinar los cambios de una rama a la rama actual
+  git merge <nombre_rama>
+
+Eliminar una rama existente
+  git branch -d <nombre_rama>
+
+Clonar un repositorio remoto usando https
+  git clone https://dominio.com/usuario/nombreRepositorio.git
+
+Clonar un repositorio remoto usando ssh
+  git clone git@dominio.com:usuario/nombreRepositorio.git
+
