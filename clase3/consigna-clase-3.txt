@@ -1,0 +1,280 @@
+1. Una vez realizada la actividad deberemos corroborar el resultado obtenido, ubicándonos en la carpeta peliculas y utilizando el comando: ls -R
+
+	$ ls -R
+	Peliculas
+
+	./Peliculas:
+	Accion     Comedia    Infantiles Romanticas Terror
+
+	./Peliculas/Accion:
+	Cars.jpg                Diario de una pasion.js El hexorcista.xls       Smooth criminal.txt
+
+	./Peliculas/Comedia:
+	IT.xls                  Madagaskar.js           Mision Imposible.png    Orgullo y prejuicio.txt
+
+	./Peliculas/Infantiles:
+	El juego del miedo.xls Intenzamente.txt       Rapido y furioso.pdf   Titanic.jpg
+
+	./Peliculas/Romanticas:
+	Annabelle.js      La mascara.js     Los vengadores.js Pocahontas.jpg
+
+	./Peliculas/Terror:
+	La dama y el bagavundo.png Que paso ayer.pdf          We will rock you.js        Yo antes de ti.xls
+
+¿Se pueden crear las carpetas del punto 2 en un solo comando? En caso que la respuesta sea positiva escribir el comando?
+	$ mkdir dh dh/Peliculas dh/Peliculas/Infantiles dh/Peliculas/Accion dh/Peliculas/Terror dh/Peliculas/Comedia dh/Peliculas/Romanticas
+
+¿Se pueden crear los archivos del punto 3 en un solo comando? En caso que la respuesta sea positiva escribir el comando?
+	$ touch Infantiles/Intenzamente.txt Infantiles/"El juego del miedo.xls" Infantiles/"Rapido y furioso.pdf" Infantiles/Titanic.jpg
+
+Estando ubicados en la carpeta dh crear una carpeta llamada Prueba dentro de la carpeta Romanticas en un solo comando y escribirlo aquí.
+	$ mkdir Peliculas/Romanticas/Prueba
+	$ ls Peliculas/Romanticas/
+	Annabelle.js  La mascara.js  Los vengadores.js  Pocahontas.jpg  Prueba/
+
+Estando ubicados en la carpeta Romanticas crear una carpeta llamada Prueba2 dentro de la carpeta Accion
+	$ cd Peliculas/Romanticas 
+	$ mkdir ../Accion/Prueba2
+	$ ls ../Accion 
+	Cars.jpg                Diario de una pasion.js El hexorcista.xls       Prueba2                 Smooth criminal.txt
+
+2. Mover los archivos que no correspondan a la carpeta con la categoría de película correspondiente
+	$ ls -R
+	Peliculas
+
+	./Peliculas:
+	Accion     Comedia    Infantiles Romanticas Terror
+
+	./Peliculas/Accion:
+	Los vengadores.js    Mision Imposible.png Prueba2              Rapido y furioso.pdf Smooth criminal.txt
+
+	./Peliculas/Accion/Prueba2:
+
+	./Peliculas/Comedia:
+	La mascara.js     Que paso ayer.pdf
+
+	./Peliculas/Infantiles:
+	Cars.jpg                   Intenzamente.txt           La dama y el bagavundo.png Madagaskar.js              Pocahontas.jpg
+
+	./Peliculas/Romanticas:
+	Diario de una pasion.js Orgullo y prejuicio.txt Prueba                  Titanic.jpg             Yo antes de ti.xls
+
+	./Peliculas/Romanticas/Prueba:
+
+	./Peliculas/Terror:
+	Annabelle.js           El hexorcista.xls      El juego del miedo.xls IT.xls                 We will rock you.js
+
+3. Estando ubicados en la carpeta dh renombrar los archivos que están mal nombrados debido a faltas ortográficas
+	$ mv Peliculas/Infantiles/Intenzamente.txt Peliculas/Infantiles/Intensamente.txt
+	$ mv Peliculas/Infantiles/La\ dama\ y\ el\ bagavundo.png Peliculas/Infantiles/"La dama y el vagabundo.png"
+	$ mv Peliculas/Terror/El\ hexorcista.xls Peliculas/Terror/"El exorcista.xls"
+	$ ls -R
+	Peliculas
+
+	./Peliculas:
+	Accion     Comedia    Infantiles Romanticas Terror
+
+	./Peliculas/Accion:
+	Los vengadores.js    Mision Imposible.png Prueba2              Rapido y furioso.pdf Smooth criminal.txt
+
+	./Peliculas/Accion/Prueba2:
+
+	./Peliculas/Comedia:
+	La mascara.js     Que paso ayer.pdf
+
+	./Peliculas/Infantiles:
+	Cars.jpg                   Intensamente.txt           La dama y el vagabundo.png Madagaskar.js              Pocahontas.jpg
+
+	./Peliculas/Romanticas:
+	Diario de una pasion.js Orgullo y prejuicio.txt Prueba                  Titanic.jpg             Yo antes de ti.xls
+
+	./Peliculas/Romanticas/Prueba:
+
+	./Peliculas/Terror:
+	Annabelle.js           El exorcista.xls       El juego del miedo.xls IT.xls                 We will rock you.js
+
+4. Estando ubicados en la carpeta dh remover (eliminar) los archivos que no sean películas y corresponden a canciones en un solo comando
+
+	$ rm Peliculas/Accion/Smooth\ criminal.txt Peliculas/Terror/We\ will\ rock\ you.js
+	$ ls -R
+	Peliculas
+
+	./Peliculas:
+	Accion     Comedia    Infantiles Romanticas Terror
+
+	./Peliculas/Accion:
+	Los vengadores.js    Mision Imposible.png Prueba2              Rapido y furioso.pdf
+
+	./Peliculas/Accion/Prueba2:
+
+	./Peliculas/Comedia:
+	La mascara.js     Que paso ayer.pdf
+
+	./Peliculas/Infantiles:
+	Cars.jpg                   Intensamente.txt           La dama y el vagabundo.png Madagaskar.js              Pocahontas.jpg
+
+	./Peliculas/Romanticas:
+	Diario de una pasion.js Orgullo y prejuicio.txt Prueba                  Titanic.jpg             Yo antes de ti.xls
+
+	./Peliculas/Romanticas/Prueba:
+
+	./Peliculas/Terror:
+	Annabelle.js           El exorcista.xls       El juego del miedo.xls IT.xls
+
+5. Ubicados en la carpeta dh crear el archivo noBorrar.js en la carpeta prueba2 en un solo comando
+	$ touch Peliculas/Accion/Prueba2/noBorrar.js
+	$ ls -R
+	Peliculas
+
+	./Peliculas:
+	Accion     Comedia    Infantiles Romanticas Terror
+
+	./Peliculas/Accion:
+	Los vengadores.js    Mision Imposible.png Prueba2              Rapido y furioso.pdf
+
+	./Peliculas/Accion/Prueba2:
+	noBorrar.js
+
+	./Peliculas/Comedia:
+	La mascara.js     Que paso ayer.pdf
+
+	./Peliculas/Infantiles:
+	Cars.jpg                   Intensamente.txt           La dama y el vagabundo.png Madagaskar.js              Pocahontas.jpg
+
+	./Peliculas/Romanticas:
+	Diario de una pasion.js Orgullo y prejuicio.txt Prueba                  Titanic.jpg             Yo antes de ti.xls
+
+	./Peliculas/Romanticas/Prueba:
+
+	./Peliculas/Terror:
+	Annabelle.js           El exorcista.xls       El juego del miedo.xls IT.xls
+
+6. Ubicados en la carpeta peliculas mover el archivo noBorrar.js de la carpeta prueba2 a la carpeta prueba en un solo comando
+	$ cd Peliculas
+	$ mv Accion/Prueba2/noBorrar.js Romanticas/Prueba
+	$ ls -R
+	Accion     Comedia    Infantiles Romanticas Terror
+
+	./Accion:
+	Los vengadores.js    Mision Imposible.png Prueba2              Rapido y furioso.pdf
+
+	./Accion/Prueba2:
+
+	./Comedia:
+	La mascara.js     Que paso ayer.pdf
+
+	./Infantiles:
+	Cars.jpg                   Intensamente.txt           La dama y el vagabundo.png Madagaskar.js              Pocahontas.jpg
+
+	./Romanticas:
+	Diario de una pasion.js Orgullo y prejuicio.txt Prueba                  Titanic.jpg             Yo antes de ti.xls
+
+	./Romanticas/Prueba:
+	noBorrar.js
+
+	./Terror:
+	Annabelle.js           El exorcista.xls       El juego del miedo.xls IT.xls
+
+7. Ubicados en la carpeta dh crear un archivo llamado camadax.txt
+	$ cd ..
+	$ touch camadax.txt
+	$ ls -R
+	Peliculas   camadax.txt
+
+	./Peliculas:
+	Accion     Comedia    Infantiles Romanticas Terror
+
+	./Peliculas/Accion:
+	Los vengadores.js    Mision Imposible.png Prueba2              Rapido y furioso.pdf
+
+	./Peliculas/Accion/Prueba2:
+
+	./Peliculas/Comedia:
+	La mascara.js     Que paso ayer.pdf
+
+	./Peliculas/Infantiles:
+	Cars.jpg                   Intensamente.txt           La dama y el vagabundo.png Madagaskar.js              Pocahontas.jpg
+
+	./Peliculas/Romanticas:
+	Diario de una pasion.js Orgullo y prejuicio.txt Prueba                  Titanic.jpg             Yo antes de ti.xls
+
+	./Peliculas/Romanticas/Prueba:
+	noBorrar.js
+
+	./Peliculas/Terror:
+	Annabelle.js           El exorcista.xls       El juego del miedo.xls IT.xls
+
+8. Ubicados en la carpeta peliculas, mover el archivo IT a la carpeta infantiles. En un solo comando
+	$ cd Peliculas
+	$ mv Terror/IT.xls Infantiles
+	$ ls -R
+	Accion     Comedia    Infantiles Romanticas Terror
+
+	./Accion:
+	Los vengadores.js    Mision Imposible.png Prueba2              Rapido y furioso.pdf
+
+	./Accion/Prueba2:
+
+	./Comedia:
+	La mascara.js     Que paso ayer.pdf
+
+	./Infantiles:
+	Cars.jpg                   IT.xls                     Intensamente.txt           La dama y el vagabundo.png Madagaskar.js              Pocahontas.jpg
+
+	./Romanticas:
+	Diario de una pasion.js Orgullo y prejuicio.txt Prueba                  Titanic.jpg             Yo antes de ti.xls
+
+	./Romanticas/Prueba:
+	noBorrar.js
+
+	./Terror:
+	Annabelle.js           El exorcista.xls       El juego del miedo.xls
+
+9. Ubicados en la carpeta peliculas eliminar el archivo camadax.txt
+	$ rm ../camadax.txt
+	$ ls -R
+	Accion     Comedia    Infantiles Romanticas Terror
+
+	./Accion:
+	Los vengadores.js    Mision Imposible.png Prueba2              Rapido y furioso.pdf
+
+	./Accion/Prueba2:
+
+	./Comedia:
+	La mascara.js     Que paso ayer.pdf
+
+	./Infantiles:
+	Cars.jpg                   IT.xls                     Intensamente.txt           La dama y el vagabundo.png Madagaskar.js              Pocahontas.jpg
+
+	./Romanticas:
+	Diario de una pasion.js Orgullo y prejuicio.txt Prueba                  Titanic.jpg             Yo antes de ti.xls
+
+	./Romanticas/Prueba:
+	noBorrar.js
+
+	./Terror:
+	Annabelle.js           El exorcista.xls       El juego del miedo.xls
+
+10. Ubicados en la carpeta peliculas eliminar la carpeta prueba. En un solo comando
+	$ rm -r Romanticas/Prueba
+	$ ls -R
+	Accion     Comedia    Infantiles Romanticas Terror
+
+	./Accion:
+	Los vengadores.js    Mision Imposible.png Prueba2              Rapido y furioso.pdf
+
+	./Accion/Prueba2:
+
+	./Comedia:
+	La mascara.js     Que paso ayer.pdf
+
+	./Infantiles:
+	Cars.jpg                   IT.xls                     Intensamente.txt           La dama y el vagabundo.png Madagaskar.js              Pocahontas.jpg
+
+	./Romanticas:
+	Diario de una pasion.js Orgullo y prejuicio.txt Titanic.jpg             Yo antes de ti.xls
+
+	./Terror:
+	Annabelle.js           El exorcista.xls       El juego del miedo.xls
+
+
