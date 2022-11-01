@@ -1,0 +1,318 @@
+Jonathan@Jonathan MINGW64 ~/Desktop (main)
+$ mkdir DH DH/Peliculas DH/Peliculas/Infantiles DH/Peliculas/Accion DH/Peliculas/Terror DH/Peliculas/Comedia DH/Peliculas/Romanticas
+
+Jonathan@Jonathan MINGW64 ~/Desktop (main)
+$ touch DH DH/Peliculas DH/Peliculas/Infantiles/Intenzamente.txt/El_juego_del_miedo.xls/Rapido_y_furioso.pdf/Titanic.jpg
+touch: cannot touch 'DH/Peliculas/Infantiles/Intenzamente.txt/El_juego_del_miedo.xls/Rapido_y_furioso.pdf/Titanic.jpg': No such file or directory
+
+Jonathan@Jonathan MINGW64 ~/Desktop (main)
+$ cd DH/Peliculas
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ ls
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ cd Infantiles
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas/Infantiles (main)
+$ touch DH/Peliculas/Infantiles/Intenzamente.txt/El_juego_del_miedo.xls/Rapido_y_furioso.pdf/Titanic.jpg
+touch: cannot touch 'DH/Peliculas/Infantiles/Intenzamente.txt/El_juego_del_miedo.xls/Rapido_y_furioso.pdf/Titanic.jpg': No such file or directory
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas/Infantiles (main)
+$ touch Intenzamente.txt El_juego_del_miedo.xls Rapido_y_furioso.pdf Titanic.jpg
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas/Infantiles (main)
+$ ls
+El_juego_del_miedo.xls  Intenzamente.txt  Rapido_y_furioso.pdf  Titanic.jpg
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas/Infantiles (main)
+$ cd ..
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ cd Accion
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas/Accion (main)
+$ touch Smooth_criminal.txt Diario_de_una_pasion.js El_hexorcista.xls Cars.jpg
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas/Accion (main)
+$ ls
+Cars.jpg  Diario_de_una_pasion.js  El_hexorcista.xls  Smooth_criminal.txt
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas/Accion (main)
+$ cd ..
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ cd Terror
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas/Terror (main)
+$ Touch La_dama_y_el_bagavundo.png Yo_antes_de_ti.xls Que_paso_ayer.pdf we_will_rock_you.js
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas/Terror (main)
+$ ls
+La_dama_y_el_bagavundo.png  Yo_antes_de_ti.xls
+Que_paso_ayer.pdf           we_will_rock_you.js
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas/Terror (main)
+$ cd ..
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ cd Comedia
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas/Comedia (main)
+$ touch Madagaskar.js Orgullo_y_prejuicio.txt IT.xls Mision_imposible.png
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas/Comedia (main)
+$ ls
+IT.xls  Madagaskar.js  Mision_imposible.png  Orgullo_y_prejuicio.txt
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas/Comedia (main)
+$ cd ..
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ cd Romanticas
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas/Romanticas (main)
+$ touch Pocahontas.jpg Annabelle.js Los_vengadores.js La_mascara.js
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas/Romanticas (main)
+$ ls
+Annabelle.js  La_mascara.js  Los_vengadores.js  Pocahontas.jpg
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas/Romanticas (main)
+$ cd ..
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ ls -R
+.:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Accion:
+Cars.jpg  Diario_de_una_pasion.js  El_hexorcista.xls  Smooth_criminal.txt
+
+./Comedia:
+IT.xls  Madagaskar.js  Mision_imposible.png  Orgullo_y_prejuicio.txt
+
+./Infantiles:
+El_juego_del_miedo.xls  Intenzamente.txt  Rapido_y_furioso.pdf  Titanic.jpg
+
+./Romanticas:
+Annabelle.js  La_mascara.js  Los_vengadores.js  Pocahontas.jpg
+
+./Terror:
+La_dama_y_el_bagavundo.png  Yo_antes_de_ti.xls
+Que_paso_ayer.pdf           we_will_rock_you.js
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ cd ..
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH (main)
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Peliculas/Accion:
+Cars.jpg  Diario_de_una_pasion.js  El_hexorcista.xls  Smooth_criminal.txt
+
+./Peliculas/Comedia:
+IT.xls  Madagaskar.js  Mision_imposible.png  Orgullo_y_prejuicio.txt
+
+./Peliculas/Infantiles:
+El_juego_del_miedo.xls  Intenzamente.txt  Rapido_y_furioso.pdf  Titanic.jpg
+
+./Peliculas/Romanticas:
+Annabelle.js  La_mascara.js  Los_vengadores.js  Pocahontas.jpg
+
+./Peliculas/Terror:
+La_dama_y_el_bagavundo.png  Yo_antes_de_ti.xls
+Que_paso_ayer.pdf           we_will_rock_you.js
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH (main)
+$ mkdir Peliculas/Romanticas/Prueba
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH (main)
+$ cd peliculas/Romanticas
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/peliculas/Romanticas (main)
+$ ls
+Annabelle.js  La_mascara.js  Los_vengadores.js  Pocahontas.jpg  Prueba/
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/peliculas/Romanticas (main)
+$ mkdir DH/Peliculas/Accion/Prueba2
+mkdir: cannot create directory ‘DH/Peliculas/Accion/Prueba2’: No such file or directory
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/peliculas/Romanticas (main)
+$ pwd
+/c/Users/Jonathan/Desktop/DH/peliculas/Romanticas
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/peliculas/Romanticas (main)
+$ mkdir /c/Users/Jonathan/Desktop/DH/peliculas/Accion/prueba2
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/peliculas/Romanticas (main)
+$ cd ..
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/peliculas (main)
+$ cd Accion
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/peliculas/Accion (main)
+$ ls
+Cars.jpg                 El_hexorcista.xls    prueba2/
+Diario_de_una_pasion.js  Smooth_criminal.txt
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/peliculas/Accion (main)
+$
+
+VSCode
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH (main)
+$ cd Peliculas
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ mv Accion/Cars.jpg Infantiles
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ mv Accion/Diario_de_una_pasion.js Romanticas
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ mv Accion/El_hexorcista.xls Terror
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ mv Comedia/IT.xls Terror
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ mv Comedia/Madagaskar.js Infantiles
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ mv Comedia/Mision_imposible.png Accion
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ mv Comedia/Orgullo_y_prejuicio.txt Romanticas
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ mv Infantiles/El_juego_del_miedo.xls Terror
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ mv Infantiles/Rapido_y_fufurioso.pdf Accion
+mv: cannot stat 'Infantiles/Rapido_y_fufurioso.pdf': No such file or directory
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ mv Infantiles/Rapido_y_furioso.pdf Accion
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ mv Infantiles/Titanic.jpg Romanticas
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ mv Romanticas/Annabelle.js Terror
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ mv Romanticas/La_mascara.js Comedia
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ mv Romanticas/Los_vengadores.js Accion
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ mv Romanticas/Pocahontas.jpg Infantiles
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ mv Terror/La_dama_y_el_bagavundo.png Infantiles
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ mv Terror/Que_paso_ayer.pdf Comedia
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ mv Terror/Yo_antes_de_ti.xls Romanticas
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ cd ..
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH (main)
+$ mv Peliculas/Accion/Los_vengadores.js Peliculas/Accion/Los_Vengadores.js
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH (main)
+$ mv Peliculas/Accion/Mision_imposibles.png Peliculas/Accion/Mision_Imposible.png
+mv: cannot stat 'Peliculas/Accion/Mision_imposibles.png': No such file or directory
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH (main)
+$ mv Peliculas/Accion/Mision_imposible.png Peliculas/Accion/Mision_Imposible.png
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH (main)
+$ mv Peliculas/Accion/Rapido_y_furioso.pdf Peliculas/Accion/Rapidos_y_Furiosos.pdf
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH (main)
+$ mv Peliculas/Comedia/La_mascara.js Peliculas/Comedia/La_Mascara.js
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH (main)
+$ mv Peliculas/Infantiles/La_dama_y_el_bagavundo.png Peliculas/Infantiles/La_Dama_y_el_Vagabundo
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH (main)
+$ mv Peliculas/Terror/El_hexorcista.xls Peliculas/Terror/El_Exorcista
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH (main)
+$ rm Peliculas/Terror/we_will_rock_you.js
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH (main)
+$ touch Peliculas/Accion/prueba2/noBorrar.js
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH (main)
+$ mv Peliculas/Accion/Prueba2/noBorrar.js Peliculas/Romanticas/Prueba
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH (main)
+$ touch camadax.txt
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH (main)
+$ ls
+camadax.txt  Peliculas/
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH (main)
+$ cd Peliculas
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ mv Terror/IT.xls Infantiles
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ rm DH/camadax.txt
+rm: cannot remove 'DH/camadax.txt': No such file or directory
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ rm ../camadax.txt
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ rm -r Romanticas/Prueba
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ ls
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH/Peliculas (main)
+$ cd ..
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH (main)
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Peliculas/Accion:
+Los_Vengadores.js  Mision_Imposible.png  prueba2/  Rapidos_y_Furiosos.pdf  Smooth_criminal.txt
+
+./Peliculas/Accion/prueba2:
+
+./Peliculas/Comedia:
+La_Mascara.js  Que_paso_ayer.pdf
+
+./Peliculas/Infantiles:
+Cars.jpg  Intenzamente.txt  IT.xls  La_Dama_y_el_Vagabundo  Madagaskar.js  Pocahontas.jpg
+
+./Peliculas/Romanticas:
+Diario_de_una_pasion.js  Orgullo_y_prejuicio.txt  Titanic.jpg  Yo_antes_de_ti.xls
+
+./Peliculas/Terror:
+Annabelle.js  El_Exorcista  El_juego_del_miedo.xls
+
+Jonathan@Jonathan MINGW64 ~/Desktop/DH (main)
+$
