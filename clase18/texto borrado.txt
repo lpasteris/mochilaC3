@@ -1,0 +1,7 @@
+1)git clone
+2) git branch nombreApellido
+2.1) git checout nombreApellido
+3) subir la consigna en la carpeta correspondiente
+4) git add .
+5) git commit
+6) git push -u origin nombreApellido
