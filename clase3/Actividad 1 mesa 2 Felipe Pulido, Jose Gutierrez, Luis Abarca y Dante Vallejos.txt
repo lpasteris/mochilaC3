@@ -1,0 +1,63 @@
+git bash mesa 2
+
+Una vez realizada la actividad deberemos corroborar el resultado obtenido, ubicándonos en la carpeta peliculas y utilizando el comando: ls -R
+./DH:
+Peliculas/
+
+./DH/Peliculas:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./DH/Peliculas/Accion:
+Cars.jpg  Diario_de_una_pasion.js  El_hexorcista.xls  Smooth_criminal.txt
+
+./DH/Peliculas/Comedia:
+IT.xls  Madagaskar.js  Mision_imposible.png  Orgullo_y_prejuicio.txt.
+
+./DH/Peliculas/Infantiles:
+El_juego_del_miedo.xls  Intenzamente.txt  Rapido_y_furioso.pdf  Titanic.jpg
+
+./DH/Peliculas/Romanticas:
+Annabelle.js  La_mascara.js  Los_vengadores.js  Pocahontas.jpg
+
+./DH/Peliculas/Terror:
+La_dama_y_el_bagavundo.png  We_will_rock_you.js
+Que_paso_ayer.pdf           yo_antes_de_ti.xls
+
+
+
+¿Se pueden crear las carpetas del punto 2 en un solo comando? En caso que la respuesta sea positiva escribir el comando?
+jd_va@DESKTOP-UCRLEAH MINGW64 ~/Desktop/clas2_fundamentos_de_la_programacion
+$ mkdir DH DH/Peliculas DH/Peliculas/Infantiles DH/Peliculas/Accion DH/Peliculas/Terror DH/Peliculas/Comedia DH/Peliculas/Romanticas
+
+¿Se pueden crear los archivos del punto 3 en un solo comando? En caso que la respuesta sea positiva escribir el comando?
+jd_va@DESKTOP-UCRLEAH MINGW64 ~/Desktop/clas2_fundamentos_de_la_programacion/DH/Peliculas
+$ touch Infantiles/Intenzamente.txt Infantiles/El_juego_del_miedo.xls Infantiles/Rapido_y_furioso.pdf Infantiles/Titanic.jpg
+
+
+Estando ubicados en la carpeta DH crear una carpeta llamada Prueba dentro de la carpeta Romanticas en un solo comando y escribirlo aquí.
+
+jd_va@DESKTOP-UCRLEAH MINGW64 ~/Desktop/clas2_fundamentos_de_la_programacion/DH
+$ mkdir Peliculas/Romanticas/Prueba
+
+jd_va@DESKTOP-UCRLEAH MINGW64 ~/Desktop/clas2_fundamentos_de_la_programacion/DH
+$ ls Peliculas/Romanticas/
+Annabelle.js  La_mascara.js  Los_vengadores.js  Pocahontas.jpg  Prueba/
+
+ 
+Estando ubicados en la carpeta Romanticas crear una carpeta llamada Prueba2 dentro de la carpeta Accion
+
+jd_va@DESKTOP-UCRLEAH MINGW64 ~/Desktop/clas2_fundamentos_de_la_programacion/DH/Peliculas
+$ cd Romanticas/
+
+jd_va@DESKTOP-UCRLEAH MINGW64 ~/Desktop/clas2_fundamentos_de_la_programacion/DH/Peliculas/Romanticas
+$ mkdir /c/Users/jd_va/Desktop/clas2_fundamentos_de_la_programacion/DH/Peliculas/Accion/Prueba2
+
+jd_va@DESKTOP-UCRLEAH MINGW64 ~/Desktop/clas2_fundamentos_de_la_programacion/DH/Peliculas/Romanticas
+$ ^C
+
+jd_va@DESKTOP-UCRLEAH MINGW64 ~/Desktop/clas2_fundamentos_de_la_programacion/DH/Peliculas/Romanticas
+$ ls /c/Users/jd_va/Desktop/clas2_fundamentos_de_la_programacion/DH/Peliculas/Accion/
+Cars.jpg                 El_hexorcista.xls  Smooth_criminal.txt
+Diario_de_una_pasion.js  Prueba2/
+
+
