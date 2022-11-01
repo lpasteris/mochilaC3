@@ -1,0 +1,79 @@
+﻿1-2)
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ mv -t peliculas/Accion/  peliculas/Comedia/Mision\ imposible.png peliculas/Infantiles/Rapido\ y\ furioso.pdf peliculas/Romanticas/Los\ vengadores.js 
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ mv -t peliculas/Comedia/ peliculas/Romanticas/La\ mascara.js peliculas/Terror/Que\ paso\ ayer.ppt 
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ mv -t peliculas/Infantiles/ peliculas/Accion/Cars.jpg peliculas/Comedia/Madagaskar.js peliculas/Comedia/IT.xls peliculas/Romanticas/Pocahontas.jpg peliculas/Terror/La\ dama\ y\ el\ bagavundo.txt
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ mv -t peliculas/Romanticas/ peliculas/Accion/Diario\ de\ una\ pasion.js peliculas/Comedia/Orgullo\ y\ prejuicio.txt peliculas/Infantiles/Titanic.jpg peliculas/Terror/Yo\ antes\ de\ ti.xls
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ mv -t peliculas/Romanticas/ peliculas/Accion/Diario\ de\ una\ pasion.js peliculas/Comedia/Orgullo\ y\ prejuicio.txt peliculas/Infantiles/Titanic.jpg peliculas/Terror/Yo\ antes\ de\ ti.xls
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ mv -t peliculas/Terror/ peliculas/Accion/El\ hexorcista.xls peliculas/Infantiles/El\ juego\ del\ miedo.xls peliculas/Romanticas/Annabelle.js 
+
+
+3)
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ mv peliculas/Accion/Mision\ imposible.png peliculas/Accion/Misión\ imposible.png
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ mv peliculas/Terror/El\ hexorcista.xls peliculas/Terror/El\ exorcista.xls
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ mv peliculas/Comedia/La\ mascara.js  peliculas/Comedia/La\ máscara.js
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ mv peliculas/Romanticas/Diario\ de\ una\ pasion.js peliculas/Romanticas/Diario\ de\ una\ pasión.js
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ mv peliculas/Infantiles/Intenzamente.txt peliculas/Infantiles/Intensamente.txt
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ mv peliculas/Infantiles/La\ dama\ y\ el\ bagavundo.txt peliculas/Infantiles/La\ dama\ y\ el\ vagabundo.txt
+
+
+4)
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ rm peliculas/Accion/Smooth\ criminal.txt peliculas/Terror/We\ will\ rock\ you.php
+5)
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ touch peliculas/Accion/Prueba2/noBorrar.js 
+6)
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ cd peliculas/
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh/peliculas
+$ mv Accion/Prueba2/noBorrar.js Romanticas/Prueba/
+7)
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh/peliculas
+$ cd ..
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ touch camadax.txt
+8)
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ mv peliculas/Comedia/IT.xls peliculas/Infantiles/IT.xls
+9)
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh/peliculas
+$ rm ../camadax.txt
+10)
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh/peliculas
+$ rm -r  Romanticas/Prueba/

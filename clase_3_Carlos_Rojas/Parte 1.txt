@@ -1,0 +1,257 @@
+﻿huach@DESKTOP-D873NNU MINGW64 ~/DH/Material_Clase_2
+$ ls -r
+index.html  img/  css/
+
+
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/Material_Clase_2
+$ cd ..
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH
+$ mkdir dh dh/peliculas dh/peliculas/Infantiles dh/peliculas/Accion dh/peliculas/Terror dh/peliculas/Comedia dh/peliculas/Romanticas
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH
+$ ls
+dh/  Material_Clase_2/  proyectoCamada3/  repaso_clase1y2/
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH
+$ cd dh
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ ls
+peliculas/
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ cd ..
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH
+$ ls
+dh/  Material_Clase_2/  proyectoCamada3/  repaso_clase1y2/
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH
+$ cd dh
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ ls -R
+.:
+peliculas/
+
+
+./peliculas:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+
+./peliculas/Accion:
+
+
+./peliculas/Comedia:
+
+
+./peliculas/Infantiles:
+
+
+./peliculas/Romanticas:
+
+
+./peliculas/Terror:
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ touch dh/peliculas/Infantiles/Intenzamente.txt "dh/peliculas/Infantiles/El juego del miedo.xls""dh/peliculas/Infantiles/Rapido y furioso.pdf" dh/peliculas/Infantiles/Titanic.jpg
+touch: cannot touch 'dh/peliculas/Infantiles/Intenzamente.txt': No such file or directory
+touch: cannot touch 'dh/peliculas/Infantiles/El juego del miedo.xlsdh/peliculas/Infantiles/Rapido y furioso.pdf': No such file or directory
+touch: cannot touch 'dh/peliculas/Infantiles/Titanic.jpg': No such file or directory
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ touch dh/peliculas/Infantiles/Intenzamente.txt dh/peliculas/Infantiles/"El juego del miedo.xls" dh/peliculas/Infantiles/"Rapido y furioso.pdf" dh/peliculas/Infantiles/Titanic.jpg
+touch: cannot touch 'dh/peliculas/Infantiles/Intenzamente.txt': No such file or directory
+touch: cannot touch 'dh/peliculas/Infantiles/El juego del miedo.xls': No such file or directory
+touch: cannot touch 'dh/peliculas/Infantiles/Rapido y furioso.pdf': No such file or directory
+touch: cannot touch 'dh/peliculas/Infantiles/Titanic.jpg': No such file or directory
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ touch dh/peliculas/Infantiles/Intenzamente.txt
+touch: cannot touch 'dh/peliculas/Infantiles/Intenzamente.txt': No such file or directory
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ touch peliculas/Infantiles/Intenzamente.txt peliculas/Infantiles/"El juego del miedo.xls" peliculas/Infantiles/"Rapido y furioso.pdf" peliculas/Infantiles/Titanic.jpg
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ ls -R
+.:
+peliculas/
+
+
+./peliculas:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+
+./peliculas/Accion:
+
+
+./peliculas/Comedia:
+
+
+./peliculas/Infantiles:
+'El juego del miedo.xls'   Intenzamente.txt  'Rapido y furioso.pdf'   Titanic.jpg
+
+
+./peliculas/Romanticas:
+
+
+./peliculas/Terror:
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ touch peliculas/Accion/"Smooth criminal.txt" peliculas/Accion/"Diario de una pasion.js"peliculas/Accion/"El hexorcista.xls" peliculas/Accion/"Cars.jpg"
+touch: cannot touch 'peliculas/Accion/Diario de una pasion.jspeliculas/Accion/El hexorcista.xls': No such file or directory
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ touch peliculas/Accion/"Smooth criminal.txt" peliculas/Accion/"Diario de una pasion.js" peliculas/Accion/"El hexorcista.xls" peliculas/Accion/"Cars.jpg"
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ ls -R
+.:
+peliculas/
+
+
+./peliculas:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+
+./peliculas/Accion:
+ Cars.jpg  'Diario de una pasion.js'  'El hexorcista.xls'  'Smooth criminal.txt'
+
+
+./peliculas/Comedia:
+
+
+./peliculas/Infantiles:
+'El juego del miedo.xls'   Intenzamente.txt  'Rapido y furioso.pdf'   Titanic.jpg
+
+
+./peliculas/Romanticas:
+
+
+./peliculas/Terror:
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ touch terror/"La dama y el bagavundo.txt" terror/"Yo antes de ti.xls" terror/"Que paso ayer.ppt" terror/"We will rock you.php"
+touch: cannot touch 'terror/La dama y el bagavundo.txt': No such file or directory
+touch: cannot touch 'terror/Yo antes de ti.xls': No such file or directory
+touch: cannot touch 'terror/Que paso ayer.ppt': No such file or directory
+touch: cannot touch 'terror/We will rock you.php': No such file or directory
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ touch peliculas/terror/"La dama y el bagavundo.txt" peliculas/terror/"Yo antes de ti.xls" peliculas/terror/"Que paso ayer.ppt" peliculas/terror/"We will rock you.php"
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ touch peliculas/Comedia/"Madagaskar.js" peliculas/Comedia/"Orgullo y prejuicio.txt" peliculas/Comedia/"IT.xls" peliculas/Comedia/"Mision imposible.png"
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ touch peliculas/Romantica/"Pocahontas.jpg" peliculas/Romantica/Annabelle.js peliculas/Romantica/"Los vengadores.js"  peliculas/Romantica/"La mascara.js"
+touch: cannot touch 'peliculas/Romantica/Pocahontas.jpg': No such file or directory
+touch: cannot touch 'peliculas/Romantica/Annabelle.js': No such file or directory
+touch: cannot touch 'peliculas/Romantica/Los vengadores.js': No such file or directory
+touch: cannot touch 'peliculas/Romantica/La mascara.js': No such file or directory
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ touch peliculas/Romanticas/"Pocahontas.jpg" peliculas/Romanticas/Annabelle.js peliculas/Romanticas/"Los vengadores.js"  peliculas/Romanticas/"La mascara.js"
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ ls -R
+.:
+peliculas/
+
+
+./peliculas:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+
+./peliculas/Accion:
+ Cars.jpg  'Diario de una pasion.js'  'El hexorcista.xls'  'Smooth criminal.txt'
+
+
+./peliculas/Comedia:
+ IT.xls   Madagaskar.js  'Mision imposible.png'  'Orgullo y prejuicio.txt'
+
+
+./peliculas/Infantiles:
+'El juego del miedo.xls'   Intenzamente.txt  'Rapido y furioso.pdf'   Titanic.jpg
+
+
+./peliculas/Romanticas:
+ Annabelle.js  'La mascara.js'  'Los vengadores.js'   Pocahontas.jpg
+
+
+./peliculas/Terror:
+'La dama y el bagavundo.txt'  'Que paso ayer.ppt'  'We will rock you.php'  'Yo antes de ti.xls'
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ mkdir peliculas/Romanticas/Prueba
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh
+$ cd peliculas/Romanticas/
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh/peliculas/Romanticas
+$ mkdir ../Accion/Prueba2
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh/peliculas/Romanticas
+$ cd ..
+
+
+huach@DESKTOP-D873NNU MINGW64 ~/DH/dh/peliculas
+$ ls -R
+.:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+
+./Accion:
+ Cars.jpg  'Diario de una pasion.js'  'El hexorcista.xls'   Prueba2/  'Smooth criminal.txt'
+
+
+./Accion/Prueba2:
+
+
+./Comedia:
+ IT.xls   Madagaskar.js  'Mision imposible.png'  'Orgullo y prejuicio.txt'
+
+
+./Infantiles:
+'El juego del miedo.xls'   Intenzamente.txt  'Rapido y furioso.pdf'   Titanic.jpg
+
+
+./Romanticas:
+ Annabelle.js  'La mascara.js'  'Los vengadores.js'   Pocahontas.jpg   Prueba/
+
+
+./Romanticas/Prueba:
+
+
+./Terror:
+'La dama y el bagavundo.txt'  'Que paso ayer.ppt'  'We will rock you.php'  'Yo antes de ti.xls'
