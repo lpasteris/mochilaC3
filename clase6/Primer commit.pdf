@@ -1,0 +1,13 @@
+Crear
+
+Clonar un repositorio existente
+Nos permite clonar el repositorio desde nuestra PC al remoto y poder trabajar entre ambos.
+
+$ git clone ssh://usuario@domain.com/repo.git
+Es el ID unico que cada uno tiene al registrar nuestro correo electrónico en github
+
+Crear un nuevo repositorio local
+Se utiliza para almacenar datos de forma local en nuestra pc
+
+$ git init
+Nos permite inicializar una conexión en nuetsro repo local y poderle hacer seguimiento
