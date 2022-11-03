@@ -1,0 +1,578 @@
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ pwd
+/c/Users/rocio
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ cd dh
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh
+$ mkdir dh/peliculas dh/peliculas/infantiles dh/peliculas/accion dh/peliculas/terror dh/peliculas/comedia dh/peliculas/romanticas
+mkdir: cannot create directory ‘dh/peliculas’: No such file or directory
+mkdir: cannot create directory ‘dh/peliculas/infantiles’: No such file or directory
+mkdir: cannot create directory ‘dh/peliculas/accion’: No such file or directory
+mkdir: cannot create directory ‘dh/peliculas/terror’: No such file or directory
+mkdir: cannot create directory ‘dh/peliculas/comedia’: No such file or directory
+mkdir: cannot create directory ‘dh/peliculas/romanticas’: No such file or directory
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh
+$ mkdir /Users/rocio/dh/peliculas dh/peliculas/infantiles dh/peliculas/accion dh/peliculas/terror dh/peliculas/comedia dh/peliculas/romanticas
+mkdir: cannot create directory ‘/Users/rocio/dh/peliculas’: No such file or directory
+mkdir: cannot create directory ‘dh/peliculas/infantiles’: No such file or directory
+mkdir: cannot create directory ‘dh/peliculas/accion’: No such file or directory
+mkdir: cannot create directory ‘dh/peliculas/terror’: No such file or directory
+mkdir: cannot create directory ‘dh/peliculas/comedia’: No such file or directory
+mkdir: cannot create directory ‘dh/peliculas/romanticas’: No such file or directory
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh
+$ cd ..
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ mkdir dh/peliculas dh/peliculas/infantiles dh/peliculas/accion dh/peliculas/terror dh/peliculas/comedia dh/peliculas/romanticas
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ touch dh/peliculas/infantiles/intenzamente.txt dh/peliculas/infantiles/el_juego_del_miedo.xls dh/peliculas/infantiles/rapido_y_furio_cd.pdfcd dh/peliculas/infantiles/titanic.jpg
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ touch dh/peliculas/accion/smooth_criminal.txt dh/peliculas/accion/diario_de_una_pasion.js dh/peliculas/accion/el_hexorcista.xls dh/peliculas/accion/cars.jpg
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ touch dh/peliculas/terror/la_dama_y_el_vagabundo.png dh/peliculas/terror/yo_antes_de_ti.xls dh/peliculas/terror/que_paso_ayer.pdf dh/peliculas/terror/we_will_rock_you.js
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ touch dh/peliculas/comedia/madasgakar.js dh/peliculas/comedia/orgullo_y_prejuicio.txt dh/peliculas/comedia/IT.xls dh/peliculas/comedia/mision_imposible.png
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ touch dh/peliculas/romanticas/pocahontas.jpg dh/peliculas/romanticas/annabelle.js dh/peliculas/romanticas/los_vengadores.js dh/peliculas/romanticas/la_mascara.js
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ cd dh
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh
+$ cd peliculas
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls -R
+.:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./accion:
+cars.jpg                 el_hexorcista.xls
+diario_de_una_pasion.js  smooth_criminal.txt
+
+./comedia:
+IT.xls         mision_imposible.png
+madasgakar.js  orgullo_y_prejuicio.txt
+
+./infantiles:
+el_juego_del_miedo.xls  rapido_y_furio_cd.pdfcd
+intenzamente.txt        titanic.jpg
+
+./romanticas:
+annabelle.js   los_vengadores.js
+la_mascara.js  pocahontas.jpg
+
+./terror:
+la_dama_y_el_vagabundo.png  we_will_rock_you.js
+que_paso_ayer.pdf           yo_antes_de_ti.xls
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ cd ../../
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ ls dh
+peliculas/  repaso_clase1y2/
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ ls dh/peliculas
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ mkdir dh/peliculas/romanticas/prueba
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ ls dh
+peliculas/  repaso_clase1y2/
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ ls dh/peliculas
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ ls dh/peliculas/romanticas
+annabelle.js   los_vengadores.js  prueba/
+la_mascara.js  pocahontas.jpg
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ cd dh
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh
+$ cd peliculas
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ cd romanticas
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas/romanticas
+$ cd ../../
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh
+$ cd peliculas/romanticas
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas/romanticas
+$ cd ../../
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh
+$ cd ..
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ cd dh/peliculas/romanticas
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas/romanticas
+$ mkdir cd ../accion/prueba2
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas/romanticas
+$ cd ..
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls -R
+.:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./accion:
+cars.jpg                 prueba2/
+diario_de_una_pasion.js  smooth_criminal.txt
+el_hexorcista.xls
+
+./accion/prueba2:
+
+./comedia:
+IT.xls         mision_imposible.png
+madasgakar.js  orgullo_y_prejuicio.txt
+
+./infantiles:
+el_juego_del_miedo.xls  rapido_y_furio_cd.pdfcd
+intenzamente.txt        titanic.jpg
+
+./romanticas:
+annabelle.js  la_mascara.js      pocahontas.jpg
+cd/           los_vengadores.js  prueba/
+
+./romanticas/cd:
+
+./romanticas/prueba:
+
+./terror:
+la_dama_y_el_vagabundo.png  we_will_rock_you.js
+que_paso_ayer.pdf           yo_antes_de_ti.xls
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ mv accion/cars.jpg infantiles/
+mv: cannot stat 'accion/cars.jpg': No such file or directory
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls accion
+diario_de_una_pasion.js  el_hexorcista.xls  prueba2/  smooth_c
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls infantiles
+cars.jpg  el_juego_del_miedo.xls  intenzamente.txt  rapido_y_f
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls -R
+.:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./accion:
+diario_de_una_pasion.js  el_hexorcista.xls  prueba2/  smooth_c
+
+./accion/prueba2:
+
+./comedia:
+IT.xls  madasgakar.js  mision_imposible.png  orgullo_y_prejuic
+
+./infantiles:
+cars.jpg  el_juego_del_miedo.xls  intenzamente.txt  rapido_y_f
+
+./romanticas:
+annabelle.js  cd/  la_mascara.js  los_vengadores.js  pocahonta
+
+./romanticas/cd:
+
+./romanticas/prueba:
+
+./terror:
+la_dama_y_el_vagabundo.png  que_paso_ayer.pdf  we_will_rock_yo
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls terror
+annabelle.js  el_hexorcista.xls  el_juego_del_miedo.xls  que_p
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ mv terror/que_paso_ayer.pdf comedia
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls comedia
+IT.xls         mision_imposible.png     que_paso_ayer.pdf
+madasgakar.js  orgullo_y_prejuicio.txt
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ mv comedia/m
+madasgakar.js         mision_imposible.png
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ mv comedia/madasgakar.js infantiles
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ mv comedia/mision_imposible.png accion
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls infantiles
+cars.jpg          la_dama_y_el_vagabundo.png
+intenzamente.txt  madasgakar.js
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls accion
+mision_imposible.png  rapido_y_furio_cd.pdfcd
+prueba2/              smooth_criminal.txt
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls romanticas
+cd/                      pocahontas.jpg
+diario_de_una_pasion.js  prueba/
+la_mascara.js            titanic.jpg
+los_vengadores.js        yo_antes_de_ti.xls
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ mv romanticas/pocahontas.jpg infantiles
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ mv romanticas/los_vengadores.js accion
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls accion
+los_vengadores.js     rapido_y_furio_cd.pdfcd
+mision_imposible.png  smooth_criminal.txt
+prueba2/
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls accion
+los_vengadores.js     rapido_y_furio_cd.pdfcd
+mision_imposible.png  smooth_criminal.txt
+prueba2/
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls comedia
+IT.xls  orgullo_y_prejuicio.txt  que_paso_ayer.pdf
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ mv comedia/orgullo_y_prejuicio.txt romanticas
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls terror
+annabelle.js       el_juego_del_miedo.xls
+el_hexorcista.xls  we_will_rock_you.js
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls comedia
+IT.xls  que_paso_ayer.pdf
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls romanticas
+cd/                      prueba/
+diario_de_una_pasion.js  titanic.jpg
+la_mascara.js            yo_antes_de_ti.xls
+orgullo_y_prejuicio.txt
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ mv romanticas/la_mascara.js comedia
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls romanticas
+cd/                      prueba/
+diario_de_una_pasion.js  titanic.jpg
+orgullo_y_prejuicio.txt  yo_antes_de_ti.xls
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls comedia
+IT.xls  la_mascara.js  que_paso_ayer.pdf
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ mv comedia/IT.xls terror
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls terror
+IT.xls        el_hexorcista.xls       we_will_rock_you.js
+annabelle.js  el_juego_del_miedo.xls
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls -R
+.:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./accion:
+los_vengadores.js     rapido_y_furio_cd.pdfcd
+mision_imposible.png  smooth_criminal.txt
+prueba2/
+
+./accion/prueba2:
+
+./comedia:
+la_mascara.js  que_paso_ayer.pdf
+
+./infantiles:
+cars.jpg          la_dama_y_el_vagabundo.png  pocahontas.jpg
+intenzamente.txt  madasgakar.js
+
+./romanticas:
+cd/                      prueba/
+diario_de_una_pasion.js  titanic.jpg
+orgullo_y_prejuicio.txt  yo_antes_de_ti.xls
+
+./romanticas/cd:
+
+./romanticas/prueba:
+
+./terror:
+IT.xls        el_hexorcista.xls       we_will_rock_you.js
+annabelle.js  el_juego_del_miedo.xls
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ mv accion/rapido_y_furio_cd.pdfcd rapido_y_furioso.pdfcd
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls accion
+los_vengadores.js     prueba2/
+mision_imposible.png  smooth_criminal.txt
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ mkdir peliculas/accion/rapido_y_furiocd_so.pdfcd
+mkdir: cannot create directory ‘peliculas/accion/rapido_y_furiocd_so.pdfcd’: No such file or directory
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ cd ../../
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ mkdir dh/peliculas/accion/rapido_y_furioso.pdfcd
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ ls accion
+ls: cannot access 'accion': No such file or directory
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ cd dh/peliculas
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls accion
+los_vengadores.js     rapido_y_furioso.pdfcd/
+mision_imposible.png  smooth_criminal.txt
+prueba2/
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls -a
+./  ../  accion/  comedia/  infantiles/  romanticas/  terror/
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls -R
+.:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./accion:
+los_vengadores.js     rapido_y_furioso.pdfcd/
+mision_imposible.png  smooth_criminal.txt
+prueba2/
+
+./accion/prueba2:
+
+./accion/rapido_y_furioso.pdfcd:
+
+./comedia:
+la_mascara.js  que_paso_ayer.pdf
+
+./infantiles:
+cars.jpg          la_dama_y_el_vagabundo.png  pocahontas.jpg
+intenzamente.txt  madasgakar.js
+
+./romanticas:
+cd/                      prueba/
+diario_de_una_pasion.js  titanic.jpg
+orgullo_y_prejuicio.txt  yo_antes_de_ti.xls
+
+./romanticas/cd:
+
+./romanticas/prueba:
+
+./terror:
+IT.xls        el_hexorcista.xls       we_will_rock_you.js
+annabelle.js  el_juego_del_miedo.xls
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ cd ..
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh
+$ mv intenzamente.txt intensamente.txt
+mv: cannot stat 'intenzamente.txt': No such file or directory
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh
+$ cd ..
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ mv dh/peliculas/infantiles/intenzamente.txt intensamente.txt
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ mv dh/peliculas/infantiles/madasgakar.js madagascar.js
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~
+$ cd dh/peliculas/infantiles
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas/infantiles
+$ ls
+cars.jpg  la_dama_y_el_vagabundo.png  pocahontas.jpg
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas/infantiles
+$ ls -a
+./  ../  cars.jpg  la_dama_y_el_vagabundo.png  pocahontas.jpg
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas/infantiles
+$ ls -R
+.:
+cars.jpg  la_dama_y_el_vagabundo.png  pocahontas.jpg
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas/infantiles
+$ touch intensamente.txt/ madagascar.js
+touch: setting times of 'intensamente.txt/': No such file or directory
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas/infantiles
+$ ls
+cars.jpg                    madagascar.js
+la_dama_y_el_vagabundo.png  pocahontas.jpg
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas/infantiles
+$ cd../../
+bash: cd../../: No such file or directory
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas/infantiles
+$ cd ../../
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh
+$ mv peliculas/terror/el_hexorcista.xls el_exorcista.xls
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh
+$ cd peliculas/terror
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas/terror
+$ ls
+IT.xls        el_juego_del_miedo.xls
+annabelle.js  we_will_rock_you.js
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas/terror
+$ touch el_hexorcista.xls
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas/terror
+$ ls
+IT.xls        el_hexorcista.xls       we_will_rock_you.js
+annabelle.js  el_juego_del_miedo.xls
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas/terror
+$ cd ../..
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh
+$ mv peliculas/terror/el_
+el_hexorcista.xls       el_juego_del_miedo.xls
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh
+$ mv peliculas/terror/el_hexorcista.xls peliculas/terror/el_exorcista.xls
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh
+$ cd peliculas/terror
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas/terror
+$ ls
+IT.xls        el_exorcista.xls        we_will_rock_you.js
+annabelle.js  el_juego_del_miedo.xls
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas/terror
+$ cd ..
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ ls -R
+.:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./accion:
+los_vengadores.js     rapido_y_furioso.pdfcd/
+mision_imposible.png  smooth_criminal.txt
+prueba2/
+
+./accion/prueba2:
+
+./accion/rapido_y_furioso.pdfcd:
+
+./comedia:
+la_mascara.js  que_paso_ayer.pdf
+
+./infantiles:
+cars.jpg                    madagascar.js
+la_dama_y_el_vagabundo.png  pocahontas.jpg
+
+./romanticas:
+cd/                      prueba/
+diario_de_una_pasion.js  titanic.jpg
+orgullo_y_prejuicio.txt  yo_antes_de_ti.xls
+
+./romanticas/cd:
+
+./romanticas/prueba:
+
+./terror:
+IT.xls        el_exorcista.xls        we_will_rock_you.js
+annabelle.js  el_juego_del_miedo.xls
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ cd ..
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh
+$ rm peliculas/accion/smooth_criminal.txt peliculas/terror/we_will_rock_you.js
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh
+$ touch peliculas/accion/prueba2/noBorrar.js
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh
+$ cd peliculas/accion/prueba2
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas/accion/prueba2
+$ ls
+noBorrar.js
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas/accion/prueba2
+$ cd ../../
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ mv accion/prueba2/noBorrar.js romanticas/prueba/noBorrar.js
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ mv terror/IT.xls infantiles/IT.xls
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ cd ..
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh
+$ touch camada.txt
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh
+$ cd peliculas
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ rm ../camada.txt
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ rm romanticas/prueba
+rm: cannot remove 'romanticas/prueba': Is a directory
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ rmdir romanticas/prueba
+rmdir: failed to remove 'romanticas/prueba': Directory not empty
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$ rm -r romanticas/prueba
+
+rocio@LAPTOP-0KA4UTHE MINGW64 ~/dh/peliculas
+$
