@@ -1,0 +1,10 @@
+a.- Git fue inventado/diseñado por Linus Torvalds
+b.- GitHub pertenece actualmente a Microsoft. La adquisición se dio a causa
+	de que Microsoft tenia gran parte de sus repositorios de código 
+	en este servicio (herramientas importantes como PowerShell, 
+	VSCode, .NET, entre otras) y la transición a este VCS sería más 
+	fácil.
+c.- Se puede trabajar con GitHub mediante GUIs como lo es GitHub Desktop 
+o la GUI integrada de Git, además de otras herramientas de GUI para Git 
+como Sourcetree, GitKraken y otras varias.
+
