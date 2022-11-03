@@ -1,0 +1,14 @@
+cd - change directory, sirve para cambiar entre carpetas
+mv - sirve para mover y renombrar archivos
+ls - sirve para enlistar los archivos en la ruta que nos encontramos en la terminal
+pwd - sirve para verificar en que ubicacion nos encontramos en la terminal
+rm - sirve para eliminar archivos
+git init - sirve para inicializar git en la ubicacion
+git status - sirve para ver en que estado esta el repositorio local con el branch
+git clone - sirve para clonar repositorios a nuestro directorio local
+git add . - sirve para agregar los archivos y cambios a preparacion
+git commit -m - sirve para comitear los cambios y archivos listos para el push
+git push origin {branch} - sirve para pushear los archivos desde origin a branch
+git pull origin {branch} - sirve para traer y actualizar los archivos desde branch
+git branch {new_branch} - sirve para crear una nueva branch
+git checkout {branch} - sirve para cambiar entre branch
