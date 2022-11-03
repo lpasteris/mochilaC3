@@ -1,0 +1,11 @@
+¿Quien invento GIT y por qué?
+
+R:  Linus Torvalds creo git, para poder tener un problema de control de versiones distribuido y facil de usar para linux, que permitiera el trabajo en equipo y disminuyera los problemas de compatibilidades. Este se transformo en el sistema de control de versiones más usado en el mundo.
+
+¿A quien pertenece actualmente GITHUB y por qué?
+
+R: GITHUB pertenece a Microsof. La compra de GitHub es un paso más en la inclinación de Microsoft para enfocarse todo lo posible al desarrollo, haciendo una vez más hincapié en que el núcleo de la empresa lo forman los desarrolladores y nada más.
+
+¿Hay otra forma que no sea la terminal para trabajar con GITHUB?
+
+R: Tengo entendido que hay herramientas graficas, alguanas de ellas son tower y fork.
