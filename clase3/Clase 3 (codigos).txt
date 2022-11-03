@@ -1,0 +1,94 @@
+¿Se pueden crear las carpetas del punto 2 en un solo comando? 
+En caso que la respuesta sea positiva escribir el comando
+
+- Dante@DESKTOP-2PF7GMU MINGW64 ~/Workspace/DH/Películas (main)
+$ mkdir Infantiles Accion Terror Comedia Romanticas
+
+¿Se pueden crear los archivos del punto 3 en un solo comando? 
+En caso que la respuesta sea positiva escribir el comando
+
+- Dante@DESKTOP-2PF7GMU MINGW64 ~/Workspace/DH/Películas/Infantiles (main)
+$ touch Intenzamente.txt El_juego_del_miedo.xls Rapido_y_furioso.pdf Titanic.jpg
+
+Estando ubicados en la carpeta DH crear una carpeta llamada 
+Prueba dentro de la carpeta Romanticas en un solo comando y escribirlo aquí.
+
+- Dante@DESKTOP-2PF7GMU MINGW64 ~/Workspace/DH (main)
+$ mkdir Películas/Romanticas/Prueba
+
+Estando ubicados en la carpeta Romanticas crear una carpeta llamada Prueba2 dentro de la carpeta Accion
+
+- Dante@DESKTOP-2PF7GMU MINGW64 ~/Workspace/DH/Películas/Romanticas (main)
+$ mkdir /c/Users/CAFE\ DIGITAL/Workspace/DH/Películas/Accion/Prueba2
+
+------------------------------------------VSCode----------------------------------------
+
+Mover los archivos que no correspondan a la carpeta con la categoría de película correspondiente. 
+
+- Ejemplo de una categoria:
+ 
+Dante@DESKTOP-2PF7GMU MINGW64 ~/Workspace/DH/Películas (main)
+$ mv Accion/Cars.jpg Infantiles/Cars.jpg
+
+Dante@DESKTOP-2PF7GMU MINGW64 ~/Workspace/DH/Películas (main)
+$ mv Terror/La_dama_y_el_bagavundo.png Infantiles/La_dama_y_el_bagavundo.png
+
+Dante@DESKTOP-2PF7GMU MINGW64 ~/Workspace/DH/Películas (main)
+$ mv Comedia/Madagaskar.js Infantiles/Madagaskar.js
+
+Dante@DESKTOP-2PF7GMU MINGW64 ~/Workspace/DH/Películas (main)
+$ mv Romanticas/Pocahontas.jpg Infantiles/Pocahontas.jpg
+
+Estando ubicados en la carpeta DH renombrar los archivos que están mal nombrados debido a faltas ortográficas.
+
+- Dante@DESKTOP-2PF7GMU MINGW64 ~/Workspace/DH (main)
+$ mv Películas/Infantiles/Intenzamente.txt Películas/Infantiles/Intensamente.txt
+
+Dante@DESKTOP-2PF7GMU MINGW64 ~/Workspace/DH (main)
+$ mv Películas/Infantiles/La_dama_y_el_bagavundo.png Películas/Infantiles/La_dama_y_el_vagabundo.png
+
+Dante@DESKTOP-2PF7GMU MINGW64 ~/Workspace/DH (main)
+$ mv Películas/Terror/El_hexorcista.xls Películas/Terror/El_exorcista.xls
+
+Dante@DESKTOP-2PF7GMU MINGW64 ~/Workspace/DH (main)
+$ mv Películas/Infantiles/Madagaskar.js Películas/Infantiles/Madagascar.js
+
+Estando ubicados en la carpeta DH remover (eliminar) los archivos que no sean peliculas y corresponden 
+a canciones en un solo comando c/u.
+
+- Dante@DESKTOP-2PF7GMU MINGW64 ~/Workspace/DH (main)
+$ rm Películas/Accion/Smooth_criminal.txt 
+
+Dante@DESKTOP-2PF7GMU MINGW64 ~/Workspace/DH (main)
+$ rm Películas/Terror/We_will_rock_you.js 
+
+Ubicados en la carpeta DH crear el archivo noBorrar.js en la carpeta prueba2. En un solo comando.
+
+- Dante@DESKTOP-2PF7GMU MINGW64 ~/Workspace/DH (main)
+$ touch Películas/Accion/Prueba2/noBorrar.js
+
+Ubicados en la carpeta peliculas mover el archivo noBorrar.js de la carpeta prueba2 a la carpeta prueba. 
+En un solo comando.
+
+- Dante@DESKTOP-2PF7GMU MINGW64 ~/Workspace/DH/Películas (main)
+$ mv Accion/Prueba2/noBorrar.js Romanticas/Prueba/noBorrar.js
+
+Ubicados en la carpeta DH crear un archivo llamado camadax.txt
+
+- Dante@DESKTOP-2PF7GMU MINGW64 ~/Workspace/DH (main)
+$ touch camadax.txt
+
+Ubicados en la carpeta peliculas, mover el archivo IT a la carpeta infantiles. En un solo comando.
+
+- Dante@DESKTOP-2PF7GMU MINGW64 ~/Workspace/DH/Películas (main)
+$ mv Terror/IT.xls Infantiles/IT.xls
+
+Ubicados en la carpeta peliculas eliminar el archivo camadax.txt
+
+- Dante@DESKTOP-2PF7GMU MINGW64 ~/Workspace/DH/Películas (main)
+$ rm /c/Users/CAFE\ DIGITAL/Workspace/DH/camadax.txt
+
+Ubicados en la carpeta peliculas eliminar la carpeta prueba. En un solo comando.
+
+- Dante@DESKTOP-2PF7GMU MINGW64 ~/Workspace/DH/Películas (main)
+$ rm -r Romanticas/Prueba/
