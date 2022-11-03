@@ -1,0 +1,185 @@
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3 (KatherineCastillo)
+$ mkdir DH
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3 (KatherineCastillo)
+$ cd DH/
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH (KatherineCastillo)
+$ mkdir Películas
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH (KatherineCastillo)
+$ cd Películas/
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ mkdir Infantiles Accion Terror Comedia Romanticas
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ ls
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ cd Infantiles/
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas/Infantiles (KatherineCastillo)
+$ touch Intenzamente.txt "El juego del miedo.xls" "Rapido y furioso.pdf" Titanic.jpg
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas/Infantiles (KatherineCastillo)
+$ ls
+'El juego del miedo.xls'   Intenzamente.txt  'Rapido y furioso.pdf'   Titanic.jpg
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas/Infantiles (KatherineCastillo)
+$ cd ..
+
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ touch Accion/"Smooth criminal.txt" Accion/"Diario de una pasion.js" Accion/"El hexorcista.xls" Accion/Cars.jpg
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ cd Accion/
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas/Accion (KatherineCastillo)
+$ ls
+ Cars.jpg  'Diario de una pasion.js'  'El hexorcista.xls'  'Smooth criminal.txt'
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas/Accion (KatherineCastillo)
+$ cd ..
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ touch Terror/"La dama y el bagavundo.png" Terror/"Yo antes de ti.xls" Terror/"Que paso ayer.pdf" Terror/"We will rock you.js"
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ touch Comedia/Madagaskar.js Comedia/"Orgullo y prejuicio.txt" Comedia/IT.xls Comedia/"Mision imposible.png"
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ touch Romanticas/Pocahontas.jpg Romanticas/Annabelle.js Romanticas/"Los vengadores.js" Romanticas/"La mascara.js"
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ ls -R
+.:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Accion:
+ Cars.jpg  'Diario de una pasion.js'  'El hexorcista.xls'  'Smooth criminal.txt'
+
+./Comedia:
+ IT.xls   Madagaskar.js  'Mision imposible.png'  'Orgullo y prejuicio.txt'
+
+./Infantiles:
+'El juego del miedo.xls'   Intenzamente.txt  'Rapido y furioso.pdf'   Titanic.jpg
+
+./Romanticas:
+ Annabelle.js  'La mascara.js'  'Los vengadores.js'   Pocahontas.jpg
+
+./Terror:
+'La dama y el bagavundo.png'  'Que paso ayer.pdf'  'We will rock you.js'  'Yo antes de ti.xls'
+
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ mv Accion/Cars.jpg Infantiles/Cars.jpg
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ mv Accion/Diario\ de\ una\ pasion.js Romanticas/"Diario de una pasion.js"
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ mv Accion/El\ hexorcista.xls Terror/"El exorcista.xls"
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ mc Comedia/IT.xls Terror/IT.xls
+bash: mc: command not found
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ mv Comedia/IT.xls Terror/IT.xls
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ mv Comedia/Madagaskar.js Infantiles/Madagascar.js
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ mv Comedia/Mision\ imposible.png Accion/
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ mv Comedia/Orgullo\ y\ prejuicio.txt Romanticas/
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ mv Infantiles/El\ juego\ del\ miedo.xls Terror/
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ mv Infantiles/Rapido\ y\ furioso.pdf Accion/
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ mv Infantiles/Intenzamente.txt Infantiles/Intensamente.txt
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ mv Infantiles/Titanic.jpg Romanticas/
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ mv Romanticas/Annabelle.js Terror/
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ mv Romanticas/La\ mascara.js Comedia/
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ mv Romanticas/Los\ vengadores.js Accion/
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ mv Romanticas/Pocahontas.jpg Infantiles/
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ mv Terror/La\ dama\ y\ el\ bagavundo.png Infantiles/
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ mv Terror/Que\ paso\ ayer.pdf Comedia/
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ mv Terror/Yo\ antes\ de\ ti.xls Romanticas/
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ cd ..
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH (KatherineCastillo)
+$ rm Películas/Accion/Smooth\ criminal.txt Películas/Terror/We\ will\ rock\ you.js
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH (KatherineCastillo)
+$ mkdir Películas/Romanticas/Prueba
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH (KatherineCastillo)
+$ cd Películas/
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ cd Romanticas/
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas/Romanticas (KatherineCastillo)
+$ mkdir ../Accion/Prueba2
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas/Romanticas (KatherineCastillo)
+$ cd ..
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ cd ..
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH (KatherineCastillo)
+$ touch Películas/Accion/Prueba2/noBorrar.js
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH (KatherineCastillo)
+$ cd Películas/
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ mv Accion/Prueba2/noBorrar.js Romanticas/Prueba/noBorrar.js
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ cd ..
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH (KatherineCastillo)
+$ touch camadax.txt
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH (KatherineCastillo)
+$ cd Películas/
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ mv Terror/IT.xls Infantiles/IT.xls
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ rm ../camadax.txt
+
+kcasti01@SAN1CULMIPROS11 MINGW64 ~/Desktop/DigitalHouse/Introducción a la Informatica/mochilaC3/clase3/DH/Películas (KatherineCastillo)
+$ rmdir Romanticas/Prueba/
