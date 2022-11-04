@@ -1,0 +1,131 @@
+jazminpalma@MacBook-Pro ~ % mkdir dh
+mkdir: dh: File exists
+jazminpalma@MacBook-Pro ~ % cd dh
+jazminpalma@MacBook-Pro dh % mkdir pelicula
+jazminpalma@MacBook-Pro dh % cd pelicula
+jazminpalma@MacBook-Pro pelicula % mkdir infantiles accion terror comedia romanticas
+jazminpalma@MacBook-Pro pelicula % cd infantiles
+jazminpalma@MacBook-Pro infantiles % touch intenzamente.txt "el juego del miedo".xls "rapido y furioso".pdf titanic.jpg
+jazminpalma@MacBook-Pro infantiles % cd accion
+cd: no such file or directory: accion
+jazminpalma@MacBook-Pro infantiles % cd ..
+jazminpalma@MacBook-Pro pelicula % cd accion
+jazminpalma@MacBook-Pro accion % touch "smooth criminal".txt "diario de una pasion".js "el hexorcista".xls cars.jpg
+jazminpalma@MacBook-Pro accion % cd ..
+jazminpalma@MacBook-Pro pelicula % cd terror
+jazminpalma@MacBook-Pro terror % touch "la dama y el bagavundo".png "yo antes de ti".xls "que paso ayer".pdf "we will rock you".js
+jazminpalma@MacBook-Pro terror % cd ..
+jazminpalma@MacBook-Pro pelicula % cd comedia
+jazminpalma@MacBook-Pro comedia % touch madagaskar.js "orgullo y prejuicio".txt it.xls "mision imposible".png
+jazminpalma@MacBook-Pro comedia % cd ..
+jazminpalma@MacBook-Pro pelicula % cd romanticas
+jazminpalma@MacBook-Pro romanticas % touch pocahontas.jpg annabelle.js "los vengadores".js "la mascara".js
+jazminpalma@MacBook-Pro romanticas % cd ..
+jazminpalma@MacBook-Pro pelicula % ls -R
+accion		comedia		infantiles	romanticas	terror
+
+./accion:
+cars.jpg		diario de una pasion.js	el hexorcista.xls	smooth criminal.txt
+
+./comedia:
+it.xls			madagaskar.js		mision imposible.png	orgullo y prejuicio.txt
+
+./infantiles:
+el juego del miedo.xls	intenzamente.txt	rapido y furioso.pdf	titanic.jpg
+
+./romanticas:
+annabelle.js		la mascara.js		los vengadores.js	pocahontas.jpg
+
+./terror:
+la dama y el bagavundo.png	que paso ayer.pdf		we will rock you.js		yo antes de ti.xls
+jazminpalma@MacBook-Pro pelicula % ll
+zsh: command not found: ll
+jazminpalma@MacBook-Pro pelicula % ls -lah
+total 0
+drwxr-xr-x  7 jazminpalma  staff   224B Oct 20 22:39 .
+drwxr-xr-x  4 jazminpalma  staff   128B Oct 20 22:38 ..
+drwxr-xr-x  6 jazminpalma  staff   192B Oct 20 22:47 accion
+drwxr-xr-x  6 jazminpalma  staff   192B Oct 20 23:05 comedia
+drwxr-xr-x  6 jazminpalma  staff   192B Oct 20 22:43 infantiles
+drwxr-xr-x  6 jazminpalma  staff   192B Oct 20 23:07 romanticas
+drwxr-xr-x  6 jazminpalma  staff   192B Oct 20 23:00 terror
+jazminpalma@MacBook-Pro pelicula % ls -R
+accion		comedia		infantiles	romanticas	terror
+
+./accion:
+cars.jpg		diario de una pasion.js	el hexorcista.xls	smooth criminal.txt
+
+./comedia:
+it.xls			madagaskar.js		mision imposible.png	orgullo y prejuicio.txt
+
+./infantiles:
+el juego del miedo.xls	intenzamente.txt	rapido y furioso.pdf	titanic.jpg
+
+./romanticas:
+annabelle.js		la mascara.js		los vengadores.js	pocahontas.jpg
+
+./terror:
+la dama y el bagavundo.png	que paso ayer.pdf		we will rock you.js		yo antes de ti.xls
+
+
+VS code bash
+
+
+MacBook-Pro:pelicula jazminpalma$ mv accion/cars.jpg infantiles/
+MacBook-Pro:pelicula jazminpalma$ mv accion/el\ hexorcista.xls terror/
+MacBook-Pro:pelicula jazminpalma$ mv accion/diario\ de\ una\ pasion.js romanticas/
+MacBook-Pro:pelicula jazminpalma$ mv comedia/it.xls terror/
+MacBook-Pro:pelicula jazminpalma$ mv comedia/madagaskar.js infantiles/
+MacBook-Pro:pelicula jazminpalma$ mv comedia/mision\ imposible.png accion/
+MacBook-Pro:pelicula jazminpalma$ mv comedia/orgullo\ y\ prejuicio.txt romanticas/
+MacBook-Pro:pelicula jazminpalma$ mv infantiles/el\ juego\ del\ miedo.xls terror/
+MacBook-Pro:pelicula jazminpalma$ mv infantiles/rapido\ y\ furioso.pdf accion/
+MacBook-Pro:pelicula jazminpalma$ mv infantiles/titanic.jpg romanticas/
+MacBook-Pro:pelicula jazminpalma$ mv romanticas/annabelle.js terror/
+MacBook-Pro:pelicula jazminpalma$ mv romanticas/la\ mascara.js comedia/
+MacBook-Pro:pelicula jazminpalma$ mv romanticas/los\ vengadores.js accion/
+MacBook-Pro:pelicula jazminpalma$ mv romanticas/pocahontas.jpg infantiles/
+MacBook-Pro:pelicula jazminpalma$ mv terror/la\ dama\ y\ el\ bagavundo.png infantiles/
+MacBook-Pro:pelicula jazminpalma$ mv terror/que\ paso\ ayer.pdf comedia/
+MacBook-Pro:pelicula jazminpalma$ mv terror/yo\ antes\ de\ ti.xls romanticas/
+MacBook-Pro:pelicula jazminpalma$ mv infantiles/la\ dama\ y\ el\ bagavundo.png infantiles/"la dama y el vagabundo".png
+MacBook-Pro:pelicula jazminpalma$ mv infantiles/madagaskar.js infantiles/madagascar
+MacBook-Pro:pelicula jazminpalma$ mv infantiles/madagascar infantiles/madagascar.js
+MacBook-Pro:pelicula jazminpalma$ mv infantiles/intenzamente.txt infantiles/intensa-mente.txt 
+MacBook-Pro:pelicula jazminpalma$ mv terror/el\ hexorcista.xls terror/"el exorcista".xls
+MacBook-Pro:pelicula jazminpalma$ mv accion/smooth\ criminal.txt terror/
+MacBook-Pro:pelicula jazminpalma$ rm terror/smooth\ criminal.txt
+MacBook-Pro:pelicula jazminpalma$ rm terror/we\ will\ rock\ you.js 
+MacBook-Pro:pelicula jazminpalma$ pwd
+/Users/jazminpalma/dh/pelicula
+MacBook-Pro:pelicula jazminpalma$ cd ..
+MacBook-Pro:dh jazminpalma$ mkdir prueba2; touch prueba2/noBorrar.js
+MacBook-Pro:dh jazminpalma$ ls
+pelicula        peliculas       prueba2
+MacBook-Pro:dh jazminpalma$ rm -rf peliculas
+MacBook-Pro:dh jazminpalma$ ls
+pelicula        prueba2
+MacBook-Pro:dh jazminpalma$ ls prueba2
+noBorrar.js
+MacBook-Pro:dh jazminpalma$ cd peliculas
+bash: cd: peliculas: No such file or directory
+MacBook-Pro:dh jazminpalma$ cd pelicula
+MacBook-Pro:pelicula jazminpalma$ open .
+MacBook-Pro:pelicula jazminpalma$ open ../
+MacBook-Pro:pelicula jazminpalma$ cd romanticas/
+MacBook-Pro:romanticas jazminpalma$ mkdir prueba
+MacBook-Pro:romanticas jazminpalma$ ls
+diario de una pasion.js orgullo y prejuicio.txt prueba                  titanic.jpg             yo antes de ti.xls
+MacBook-Pro:romanticas jazminpalma$ pwd
+/Users/jazminpalma/dh/pelicula/romanticas
+MacBook-Pro:romanticas jazminpalma$ cd ../../
+MacBook-Pro:dh jazminpalma$ touch camadax.txt
+MacBook-Pro:dh jazminpalma$ cd
+MacBook-Pro:~ jazminpalma$ pwd
+/Users/jazminpalma
+MacBook-Pro:~ jazminpalma$ cd dh
+MacBook-Pro:dh jazminpalma$ cd pelicula
+MacBook-Pro:pelicula jazminpalma$ mv terror/it.xls infantiles/
+MacBook-Pro:pelicula jazminpalma$ rm ../camadax.txt 
+MacBook-Pro:pelicula jazminpalma$ rm -r romanticas/prueba/
+MacBook-Pro:pelicula jazminpalma$ 
