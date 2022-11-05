@@ -1,0 +1,336 @@
+Parte 1
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive
+$ cd Escritorio/
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio
+$ mkdir DH
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio
+$ cd dh
+
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio
+$ mkdir DH
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio
+$ cd dh
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh
+$ mkdir Peliculas
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh
+$ cd Peliculas/
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ mkdir "Infantiles" "Accion" "Terror" "Comedia" "Roma
+nticas"
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ cd Infantiles/
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Infantiles
+$ touch "Intenzamente.txt" "El juego del miedo.xls" "Rapido y furioso.pdf" "Titanic.jpg"
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Infantiles
+$ cd ..
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ cd Accion/
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Accion
+$ touch "Smooth criminal.txt" "Diario de una pasion.js" "El hexorcista.xls" "Cars.jpg"
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Accion
+$ cd ..
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ cd Terror/
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Terror
+$ touch "La dama y el bagavundo.png" "Yo antes de ti.xls" "Que paso ayer.pdf" "We will rock you.js"
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Terror
+$ cd ..
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ cd Comedia/
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Comedia
+$ touch "Madagaskar.js" "Orgullo y prejuicio.txt" "IT.xls" "Mision imposible.png"
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Comedia
+$ cd ..
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ cd Romanticas/
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Romanticas
+$ touch "Pocahontas.jpg" "Annabelle.js" "Los vengadores.js" "La mascara.js"
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Romanticas
+$ cd ..
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ ls -R
+.:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Accion:
+ Cars.jpg                  'El hexorcista.xls'        
+'Diario de una pasion.js'  'Smooth criminal.txt'      
+
+./Comedia:
+ IT.xls         'Mision imposible.png'
+ Madagaskar.js  'Orgullo y prejuicio.txt'
+
+./Infantiles:
+'El juego del miedo.xls'  'Rapido y furioso.pdf'      
+ Intenzamente.txt          Titanic.jpg
+
+./Romanticas:
+ Annabelle.js    'Los vengadores.js'
+'La mascara.js'   Pocahontas.jpg
+
+./Terror:
+'La dama y el bagavundo.png'  'We will rock you.js'   
+'Que paso ayer.pdf'           'Yo antes de ti.xls'    
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+
+Pregunta 1:Si
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ mkdir "Infantiles" "Accion" "Terror" "Comedia" "Roma
+nticas"
+
+Pregunta 2:Si
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Infantiles
+$ touch "Intenzamente.txt" "El juego del miedo.xls" "Rapido y furioso.pdf" "Titanic.jpg"
+
+Pregunta 3:
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh
+$ mkdir Peliculas/Romanticas/prueba
+
+Pregunta 4:
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ cd Romanticas/
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Romanticas
+$ mkdir ../Accion/prueba2
+
+Parte 2
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ mv accion/Cars.jpg Infantiles/Cars.jpg
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ mv Accion/Diario\ de\ una\ pasion.js Romanticas/"Dia
+rio de una pasion.js
+> "
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ cd Romanticas/
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Romanticas
+$ ls
+ Annabelle.js                   'Los vengadores.js'
+'Diario de una pasion.js'$'\n'   Pocahontas.jpg
+'La mascara.js'
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Romanticas
+$ rm 'Diario de una pasion.js
+' 
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Romanticas
+$ touch "Diario de una pasion.js"
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Romanticas
+$ cd ..
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ cd Romanticas/
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Romanticas
+$ ls
+ Annabelle.js              'Los vengadores.js'
+'Diario de una pasion.js'   Pocahontas.jpg
+'La mascara.js'
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Romanticas
+$ cd ..
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ mv Accion/El\ hexorcista.xls Terror/"El hexorcista.x
+ls"
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ mv Comedia/IT.xls Terror/IT.xls
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ mv Comedia/Madagaskar.js Infantiles/Madagaskar.js
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ mv Comedia/Mision\ imposible.png Accion/"Mision impo
+sible.png"
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ mv Comedia/Orgullo\ y\ prejuicio.txt Romanticas/"Orgullo y prejuicio.txt"
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ mv Infantiles/El\ juego\ del\ miedo.xls Terror/"El juego del miedo.xls"
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ mv Infantiles/Rapido\ y\ furioso.pdf Accion/"Rapido 
+y furioso.pdf"
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ mv Infantiles/Titanic.jpg Romanticas/Titanic.jpg    
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ r
+Display all 175 possibilities? (y or n)
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ mv Romanticas/Annabelle.js Terror/Annabelle.js
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ mv Romanticas/La\ mascara.js Comedia/"La mascara.js"
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ mv Romanticas/Los\ vengadores.js Accion/"Los vengadores.js
+> "
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ cd Accion/
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Accion
+$ ls
+'Los vengadores.js'$'\n'  'Rapido y furioso.pdf'
+'Mision imposible.png'    'Smooth criminal.txt'
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Accion
+$ rm 'Los vengadores.js
+' 
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Accion
+$ touch "Los vengadores.js"
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Accion
+$ ls
+'Los vengadores.js'     'Rapido y furioso.pdf'
+'Mision imposible.png'  'Smooth criminal.txt'
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas/Accion
+$ cd ..
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ mv Romanticas/Pocahontas.jpg Infantiles/Pocahontas.jpg
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ mv Terror/La\ dama\ y\ el\ bagavundo.png Infantiles/"La dama y el bagavundo.png"
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ mv Terror/Que\ paso\ ayer.pdf Comedia/"Que paso ayer
+.pdf"
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ mv Terror/Yo\ antes\ de\ ti.xls Romanticas/"Yo antes de ti.xls"
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+
+Parte 3
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ cd ..
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh
+$ mv Peliculas/Infantiles/Intenzamente.txt Peliculas/Infantiles/Intensamente.txt
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh
+$ mv peliculas/infantiles/"La dama y el bagavundo.png"  peliculas/infantiles/"la dama y el vagabundo.png"
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh
+$ mv peliculas/infantiles/Madagaskar.js  peliculas/infantiles/Madagascar.js
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh
+$ mv peliculas/terror/"El hexorcista.xls" peliculas/terror/"El exorcista.xls"
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh
+
+Parte 4
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh
+$ rm Peliculas/Accion/Smooth\ criminal.txt 
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh
+$ rm Peliculas/Terror/We\ will\ rock\ you.js 
+
+Parte 5
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh
+$ touch Peliculas/Accion/prueba2/noBorrar.js
+
+Parte 6
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh
+$ cd Peliculas
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ mv Accion/prueba2/noBorrar.js Romanticas/prueba/noBorrar.js
+
+Parte 7
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ cd ..
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh
+$ touch camadax.txt
+
+Parte 8
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh
+$ cd Peliculas
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ mv Terror/IT.xls Infantiles/IT.xls
+
+Parte 9
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ rm ../camadax.txt
+
+Parte 10 
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh/Peliculas
+$ rm -r Romanticas/prueba
+
+Final
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Peliculas/Accion:
+'Los vengadores.js'      prueba2/
+'Mision imposible.png'  'Rapido y furioso.pdf'      
+
+./Peliculas/Accion/prueba2:
+
+./Peliculas/Comedia:
+'La mascara.js'  'Que paso ayer.pdf'
+
+./Peliculas/Infantiles:
+ Cars.jpg          'la dama y el vagabundo.png'     
+ Intensamente.txt   Madagascar.js
+ IT.xls             Pocahontas.jpg
+
+./Peliculas/Romanticas:
+'Diario de una pasion.js'   Titanic.jpg
+'Orgullo y prejuicio.txt'  'Yo antes de ti.xls'       
+
+./Peliculas/Terror:
+ Annabelle.js       'El juego del miedo.xls'
+'El exorcista.xls'
+
+luish@LAPTOP-DS0QNJC8 MINGW64 ~/OneDrive/Escritorio/dh$
