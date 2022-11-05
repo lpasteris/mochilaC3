@@ -1,0 +1,517 @@
+felan@hp-unab MINGW64 /c/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+ cars.jpg  'diario de una pasion.js'  'el hexorcista.xls'   prueba2/  'smooth criminal.txt'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+ it.xls   madagaskar.js  'mision imposible.png'  'orgullo y prejucio.txt'
+
+./Peliculas/infantiles:
+'el juego del miedo.xls'   intenzamente.txt  'rapido y furioso.pdf'   titanic.jpg
+
+./Peliculas/romanticas:
+ annabelle.js  'la mascara.js'  'los vengadores.js'   pocahontas.jpg   prueba/
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+'la dama y el bagavundo.png'  'que paso ayer.pdf'  'we will rock you.js'  'yo antes de ti.xls'
+
+felan@hp-unab MINGW64 /c/DH
+$ mv Peliculas/infantiles/"el juego del miedo.xls" Peliculas/terror/
+
+felan@hp-unab MINGW64 /c/DH
+$ mv Peliculas/infantiles/"rapdio y furioso.pdf" Peliculas/accion/
+mv: cannot stat 'Peliculas/infantiles/rapdio y furioso.pdf': No such file or directory
+
+felan@hp-unab MINGW64 /c/DH
+$ mv Peliculas/infantiles/"rapido y furioso.pdf" Peliculas/accion/
+
+felan@hp-unab MINGW64 /c/DH
+$ mv Peliculas/infantiles/titanic.jpg Peliculas/romanticas/
+
+felan@hp-unab MINGW64 /c/DH
+$ ls Peliculas/infantiles/
+intenzamente.txt
+
+felan@hp-unab MINGW64 /c/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+ cars.jpg                  'el hexorcista.xls'  'rapido y furioso.pdf'
+'diario de una pasion.js'   prueba2/            'smooth criminal.txt'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+ it.xls   madagaskar.js  'mision imposible.png'  'orgullo y prejucio.txt'
+
+./Peliculas/infantiles:
+intenzamente.txt
+
+./Peliculas/romanticas:
+ annabelle.js  'la mascara.js'  'los vengadores.js'   pocahontas.jpg   prueba/   titanic.jpg
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+'el juego del miedo.xls'      'que paso ayer.pdf'    'yo antes de ti.xls'
+'la dama y el bagavundo.png'  'we will rock you.js'
+
+felan@hp-unab MINGW64 /c/DH
+$ mv Peliculas/accion/cars.jpg Peliculas/infantiles/
+
+felan@hp-unab MINGW64 /c/DH
+$ mv Peliculas/accion/el\ hexorcista.xls Peliculas/terror/
+
+felan@hp-unab MINGW64 /c/DH
+$ ls Peliculas/terror/
+'el hexorcista.xls'       'la dama y el bagavundo.png'  'we will rock you.js'
+'el juego del miedo.xls'  'que paso ayer.pdf'           'yo antes de ti.xls'
+
+felan@hp-unab MINGW64 /c/DH
+$ mv Peliculas/accion/diario\ de\ una\ pasion.js Peliculas/romanticas/
+
+felan@hp-unab MINGW64 /c/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+ prueba2/  'rapido y furioso.pdf'  'smooth criminal.txt'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+ it.xls   madagaskar.js  'mision imposible.png'  'orgullo y prejucio.txt'
+
+./Peliculas/infantiles:
+cars.jpg  intenzamente.txt
+
+./Peliculas/romanticas:
+ annabelle.js              'la mascara.js'       pocahontas.jpg   titanic.jpg
+'diario de una pasion.js'  'los vengadores.js'   prueba/
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+'el hexorcista.xls'       'la dama y el bagavundo.png'  'we will rock you.js'
+'el juego del miedo.xls'  'que paso ayer.pdf'           'yo antes de ti.xls'
+
+felan@hp-unab MINGW64 /c/DH
+$ mv Peliculas/comedia/it.xls Peliculas/terror/
+
+felan@hp-unab MINGW64 /c/DH
+$ mv Peliculas/comedia/madagaskar.js Peliculas/infantiles/
+
+felan@hp-unab MINGW64 /c/DH
+$ mv Peliculas/comedia/mision\ imposible.png Peliculas/accion/
+
+felan@hp-unab MINGW64 /c/DH
+$ mv Peliculas/comedia/orgullo\ y\ prejucio.txt Peliculas/romanticas/
+
+felan@hp-unab MINGW64 /c/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+'mision imposible.png'   prueba2/  'rapido y furioso.pdf'  'smooth criminal.txt'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+
+./Peliculas/infantiles:
+cars.jpg  intenzamente.txt  madagaskar.js
+
+./Peliculas/romanticas:
+ annabelle.js              'la mascara.js'      'orgullo y prejucio.txt'   prueba/
+'diario de una pasion.js'  'los vengadores.js'   pocahontas.jpg            titanic.jpg
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+'el hexorcista.xls'        it.xls                       'que paso ayer.pdf'    'yo antes de ti.xls'
+'el juego del miedo.xls'  'la dama y el bagavundo.png'  'we will rock you.js'
+
+felan@hp-unab MINGW64 /c/DH
+$ mv Peliculas/romanticas/annabelle.js Peliculas/terror/
+
+felan@hp-unab MINGW64 /c/DH
+$ mv Peliculas/romanticas/la\ mascara.js Peliculas/comedia/
+
+felan@hp-unab MINGW64 /c/DH
+$ mv Peliculas/romanticas/los\ vengadores.js Peliculas/accion/
+
+felan@hp-unab MINGW64 /c/DH
+$ mv Peliculas/romanticas/pocahontas.jpg Peliculas/infantiles/
+
+felan@hp-unab MINGW64 /c/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+'los vengadores.js'  'mision imposible.png'   prueba2/  'rapido y furioso.pdf'  'smooth criminal.txt'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+'la mascara.js'
+
+./Peliculas/infantiles:
+cars.jpg  intenzamente.txt  madagaskar.js  pocahontas.jpg
+
+./Peliculas/romanticas:
+'diario de una pasion.js'  'orgullo y prejucio.txt'   prueba/   titanic.jpg
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+ annabelle.js        'el juego del miedo.xls'  'la dama y el bagavundo.png'  'we will rock you.js'
+'el hexorcista.xls'   it.xls                   'que paso ayer.pdf'           'yo antes de ti.xls'
+
+felan@hp-unab MINGW64 /c/DH
+$ mv Peliculas/terror/la\ dama\ y\ el\ bagavundo.png  Peliculas/infantiles/
+
+felan@hp-unab MINGW64 /c/DH
+$ mv Peliculas/terror/que\ paso\ ayer.pdf  Peliculas/comedia/
+
+felan@hp-unab MINGW64 /c/DH
+$ mv Peliculas/terror/yo\ antes\ de\ ti.xls  Peliculas/romanticas/
+
+felan@hp-unab MINGW64 /c/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+'los vengadores.js'  'mision imposible.png'   prueba2/  'rapido y furioso.pdf'  'smooth criminal.txt'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+'la mascara.js'  'que paso ayer.pdf'
+
+./Peliculas/infantiles:
+ cars.jpg   intenzamente.txt  'la dama y el bagavundo.png'   madagaskar.js   pocahontas.jpg
+
+./Peliculas/romanticas:
+'diario de una pasion.js'  'orgullo y prejucio.txt'   prueba/   titanic.jpg  'yo antes de ti.xls'
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+ annabelle.js  'el hexorcista.xls'  'el juego del miedo.xls'   it.xls  'we will rock you.js'
+
+felan@hp-unab MINGW64 /c/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+'los vengadores.js'  'mision imposible.png'   prueba2/  'rapido y furioso.pdf'  'smooth criminal.txt'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+'la mascara.js'  'que paso ayer.pdf'
+
+./Peliculas/infantiles:
+ cars.jpg   intenzamente.txt  'la dama y el bagavundo.png'   madagaskar.js   pocahontas.jpg
+
+./Peliculas/romanticas:
+'diario de una pasion.js'  'orgullo y prejucio.txt'   prueba/   titanic.jpg  'yo antes de ti.xls'
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+ annabelle.js  'el hexorcista.xls'  'el juego del miedo.xls'   it.xls  'we will rock you.js'
+
+felan@hp-unab MINGW64 /c/DH
+$ mv Peliculas/infantiles/intenzamente.txt Peliculas/infantiles/intesa-mente.txt
+
+felan@hp-unab MINGW64 /c/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+'los vengadores.js'  'mision imposible.png'   prueba2/  'rapido y furioso.pdf'  'smooth criminal.txt'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+'la mascara.js'  'que paso ayer.pdf'
+
+./Peliculas/infantiles:
+ cars.jpg   intesa-mente.txt  'la dama y el bagavundo.png'   madagaskar.js   pocahontas.jpg
+
+./Peliculas/romanticas:
+'diario de una pasion.js'  'orgullo y prejucio.txt'   prueba/   titanic.jpg  'yo antes de ti.xls'
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+ annabelle.js  'el hexorcista.xls'  'el juego del miedo.xls'   it.xls  'we will rock you.js'
+
+felan@hp-unab MINGW64 /c/DH
+$ mv Peliculas/infantiles/la\ dama\ y\ el\ bagavundo.png Peliculas/infantiles/"la dama y el vagabundo.png"
+
+felan@hp-unab MINGW64 /c/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+'los vengadores.js'  'mision imposible.png'   prueba2/  'rapido y furioso.pdf'  'smooth criminal.txt'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+'la mascara.js'  'que paso ayer.pdf'
+
+./Peliculas/infantiles:
+ cars.jpg   intesa-mente.txt  'la dama y el vagabundo.png'   madagaskar.js   pocahontas.jpg
+
+./Peliculas/romanticas:
+'diario de una pasion.js'  'orgullo y prejucio.txt'   prueba/   titanic.jpg  'yo antes de ti.xls'
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+ annabelle.js  'el hexorcista.xls'  'el juego del miedo.xls'   it.xls  'we will rock you.js'
+
+felan@hp-unab MINGW64 /c/DH
+$ mv Peliculas/infantiles/madagaskar.js Peliculas/infantiles/madagascar.js
+
+felan@hp-unab MINGW64 /c/DH
+$ mv Peliculas/terror/el\ hexorcista.xls Peliculas/terror/"el exorcista.xls"
+
+felan@hp-unab MINGW64 /c/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+'los vengadores.js'  'mision imposible.png'   prueba2/  'rapido y furioso.pdf'  'smooth criminal.txt'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+'la mascara.js'  'que paso ayer.pdf'
+
+./Peliculas/infantiles:
+ cars.jpg   intesa-mente.txt  'la dama y el vagabundo.png'   madagascar.js   pocahontas.jpg
+
+./Peliculas/romanticas:
+'diario de una pasion.js'  'orgullo y prejucio.txt'   prueba/   titanic.jpg  'yo antes de ti.xls'
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+ annabelle.js  'el exorcista.xls'  'el juego del miedo.xls'   it.xls  'we will rock you.js'
+
+felan@hp-unab MINGW64 /c/DH
+$ rm Peliculas/accion/smooth\ criminal.txt Peliculas/terror/we\ will\ rock\ you.js 
+
+felan@hp-unab MINGW64 /c/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+'los vengadores.js'  'mision imposible.png'   prueba2/  'rapido y furioso.pdf'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+'la mascara.js'  'que paso ayer.pdf'
+
+./Peliculas/infantiles:
+ cars.jpg   intesa-mente.txt  'la dama y el vagabundo.png'   madagascar.js   pocahontas.jpg
+
+./Peliculas/romanticas:
+'diario de una pasion.js'  'orgullo y prejucio.txt'   prueba/   titanic.jpg  'yo antes de ti.xls'
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+ annabelle.js  'el exorcista.xls'  'el juego del miedo.xls'   it.xls
+
+felan@hp-unab MINGW64 /c/DH
+$ touch Peliculas/accion/prueba2/noBorrar.js
+
+felan@hp-unab MINGW64 /c/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+'los vengadores.js'  'mision imposible.png'   prueba2/  'rapido y furioso.pdf'
+
+./Peliculas/accion/prueba2:
+noBorrar.js
+
+./Peliculas/comedia:
+'la mascara.js'  'que paso ayer.pdf'
+
+./Peliculas/infantiles:
+ cars.jpg   intesa-mente.txt  'la dama y el vagabundo.png'   madagascar.js   pocahontas.jpg
+
+./Peliculas/romanticas:
+'diario de una pasion.js'  'orgullo y prejucio.txt'   prueba/   titanic.jpg  'yo antes de ti.xls'
+
+./Peliculas/romanticas/prueba:
+
+./Peliculas/terror:
+ annabelle.js  'el exorcista.xls'  'el juego del miedo.xls'   it.xls
+
+felan@hp-unab MINGW64 /c/DH
+$ cd Peliculas/
+
+felan@hp-unab MINGW64 /c/DH
+$ mv accion/prueba2/noBorrar.js romanticas/prueba/
+
+felan@hp-unab MINGW64 /c/DH/Peliculas
+$ ls -R
+.:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./accion:
+'los vengadores.js'  'mision imposible.png'   prueba2/  'rapido y furioso.pdf'
+
+./accion/prueba2:
+
+./comedia:
+'la mascara.js'  'que paso ayer.pdf'
+
+./infantiles:
+ cars.jpg   intesa-mente.txt  'la dama y el vagabundo.png'   madagascar.js   pocahontas.jpg
+
+./romanticas:
+'diario de una pasion.js'  'orgullo y prejucio.txt'   prueba/   titanic.jpg  'yo antes de ti.xls'
+
+./romanticas/prueba:
+noBorrar.js
+
+./terror:
+ annabelle.js  'el exorcista.xls'  'el juego del miedo.xls'   it.xls
+
+felan@hp-unab MINGW64 /c/DH/Peliculas
+$ cd ..
+
+felan@hp-unab MINGW64 /c/DH
+$ touch camada3.txt
+
+felan@hp-unab MINGW64 /c/DH
+$ cd Peliculas/
+
+felan@hp-unab MINGW64 /c/DH/Peliculas
+$ mv terror/it.xls infantiles/
+
+felan@hp-unab MINGW64 /c/DH/Peliculas
+$ cd ..
+
+felan@hp-unab MINGW64 /c/DH
+$ ls -R
+.:
+camada3.txt  Peliculas/
+
+./Peliculas:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./Peliculas/accion:
+'los vengadores.js'  'mision imposible.png'   prueba2/  'rapido y furioso.pdf'
+
+./Peliculas/accion/prueba2:
+
+./Peliculas/comedia:
+'la mascara.js'  'que paso ayer.pdf'
+
+./Peliculas/infantiles:
+ cars.jpg   intesa-mente.txt   it.xls  'la dama y el vagabundo.png'   madagascar.js   pocahontas.jpg
+
+./Peliculas/romanticas:
+'diario de una pasion.js'  'orgullo y prejucio.txt'   prueba/   titanic.jpg  'yo antes de ti.xls'
+
+./Peliculas/romanticas/prueba:
+noBorrar.js
+
+./Peliculas/terror:
+ annabelle.js  'el exorcista.xls'  'el juego del miedo.xls'
+
+felan@hp-unab MINGW64 /c/DH
+$ cd Peliculas/
+
+felan@hp-unab MINGW64 /c/DH/Peliculas
+$ rm ../camada3.txt 
+
+felan@hp-unab MINGW64 /c/DH/Peliculas
+$ rm -r romanticas/prueba/
+
+felan@hp-unab MINGW64 /c/DH/Peliculas
+$ ls -R
+.:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./accion:
+'los vengadores.js'  'mision imposible.png'   prueba2/  'rapido y furioso.pdf'
+
+./accion/prueba2:
+
+./comedia:
+'la mascara.js'  'que paso ayer.pdf'
+
+./infantiles:
+ cars.jpg   intesa-mente.txt   it.xls  'la dama y el vagabundo.png'   madagascar.js   pocahontas.jpg
+
+./romanticas:
+'diario de una pasion.js'  'orgullo y prejucio.txt'   titanic.jpg  'yo antes de ti.xls'
+
+./terror:
+ annabelle.js  'el exorcista.xls'  'el juego del miedo.xls'
