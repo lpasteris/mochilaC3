@@ -1,0 +1,224 @@
+Intro a la Informática - Clase 3 - Actividad Integradora
+
+PARTE 1 (en DESKTOP TERMINAL)
+
+1)
+alons@LAPTOP-KEHGHK6K MINGW64 ~/desktop/dh
+$ pwd
+/c/Users/alons/desktop/dh
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/desktop/dh
+$ mkdir peliculas
+
+
+2)
+alons@LAPTOP-KEHGHK6K MINGW64 ~/desktop/dh
+$ cd peliculas
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/desktop/dh/peliculas
+$ mkdir infantiles accion terror comedia romanticas
+
+
+3)
+alons@LAPTOP-KEHGHK6K MINGW64 ~/desktop/dh/peliculas
+$ cd infantiles
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/desktop/dh/peliculas/infantiles
+$ touch Intenzamente.txt "El juego del miedo.xls" "Rapido y furioso.pdf" Titanic.jpg
+
+
+4)
+alons@LAPTOP-KEHGHK6K MINGW64 ~/desktop/dh/peliculas/infantiles
+$ cd ..
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/desktop/dh/peliculas
+$ cd accion
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/desktop/dh/peliculas/accion
+$ touch "Smooth criminal.txt" "Diario de una pasion.js" "El hexorcista.xls" Cars.jpg
+
+
+5)
+alons@LAPTOP-KEHGHK6K MINGW64 ~/desktop/dh/peliculas/accion
+$ cd ../terror
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/desktop/dh/peliculas/terror
+$ touch "La dama y el bagavundo.png" "Yo antes de ti.xls" "Que paso ayer.pdf" "We will rock you.js"
+
+
+6)
+alons@LAPTOP-KEHGHK6K MINGW64 ~/desktop/dh/peliculas/terror
+$ cd ../comedia
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/desktop/dh/peliculas/comedia
+$ touch Madagaskar.js "Orgullo y prejuicio.txt" IT.xls "Mision imposible.png"
+
+
+7)
+alons@LAPTOP-KEHGHK6K MINGW64 ~/desktop/dh/peliculas/comedia
+$ cd ../romanticas
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/desktop/dh/peliculas/romanticas
+$ touch Pocahontas.jpg Annabelle.js "Los vengadores.js" "La mascara.js"
+
+
+8)
+alons@LAPTOP-KEHGHK6K MINGW64 ~/desktop/dh/peliculas/romanticas
+$ cd ..
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/desktop/dh/peliculas
+$ ls -R
+.:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./accion:
+ Cars.jpg  'Diario de una pasion.js'  'El hexorcista.xls'  'Smooth criminal.txt'
+
+./comedia:
+ IT.xls   Madagaskar.js  'Mision imposible.png'  'Orgullo y prejuicio.txt'
+
+./infantiles:
+'El juego del miedo.xls'   Intenzamente.txt  'Rapido y furioso.pdf'   Titanic.jpg
+
+./romanticas:
+ Annabelle.js  'La mascara.js'  'Los vengadores.js'   Pocahontas.jpg
+
+./terror:
+'La dama y el bagavundo.png'  'Que paso ayer.pdf'  'We will rock you.js'  'Yo antes de ti.xls'
+
+
+9)
+¿Se pueden crear las carpetas del punto 2 en un solo comando?
+alons@LAPTOP-KEHGHK6K MINGW64 ~/desktop/dh
+$ mkdir peliculas/infantiles peliculas/accion peliculas/terror peliculas/comedia peliculas/romanticas
+
+¿Se pueden crear los archivos del punto 3 en un solo comando?
+alons@LAPTOP-KEHGHK6K MINGW64 ~/desktop/dh
+$ touch peliculas/infantiles/Intenzamente2.txt peliculas/infantiles/"El juego del miedo2.xls" peliculas/infantiles/"Rapido y furioso2.pdf" peliculas/infantiles/Titanic2.jpg
+
+Estando ubicados en la carpeta DH crear una carpeta llamada Prueba dentro de la carpeta Romanticas en un solo comando y escribirlo aquí.
+alons@LAPTOP-KEHGHK6K MINGW64 ~/desktop/dh
+$ mkdir peliculas/romanticas/prueba
+
+Estando ubicados en la carpeta Romanticas crear una carpeta llamada Prueba2 dentro de la carpeta Accion
+alons@LAPTOP-KEHGHK6K MINGW64 ~/desktop/dh/peliculas/romanticas
+$ mkdir ../accion/prueba2
+
+
+PARTE 2 (en VSCODE)
+
+2)
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ mv accion/cars.jpg infantiles/cars.jpg
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ mv accion/"Diario de una pasion.js" romanticas/"Diario de una pasion.js"
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ mv accion/"El hexorcista.xls" terror/"El hexorcista.xls"
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ mv comedia/IT.xls terror/IT.xls
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ mv comedia/Madagaskar.js infantiles/Madagaskar.js
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ mv comedia/"Mision imposible.png" accion/"Mision imposible.png"
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ mv comedia/"Orgullo y prejuicio.txt" romanticas/"Orgullo y prejuicio.txt"
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ mv infantiles/"El juego del miedo.xls" terror/"El juego del miedo.xls"
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ mv infantiles/"Rapido y furioso.pdf" accion/"Rapido y furioso.pdf"
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ mv infantiles/Titanic.jpg romanticas/Titanic.jpg
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ mv romanticas/Annabelle.js terror/Annabelle.js
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ mv romanticas/"La mascara.js" comedia/"La mascara.js"
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ mv romanticas/"Los vengadores.js" accion/"Los vengadores.js"
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ mv romanticas/Pocahontas.jpg infantiles/Pocahontas.jpg
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ mv terror/"La dama y el bagavundo.png" infantiles/"La dama y el bagavundo.png"
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ mv terror/"Que paso ayer.pdf" comedia/"Que paso ayer.pdf"
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ mv terror/"Yo antes de ti.xls" romanticas/"Yo antes de ti.xls"
+
+
+3)
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ cd ..
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh
+$ mv peliculas/infantiles/Intenzamente.txt peliculas/infantiles/Intensamente.txt
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh
+$ mv peliculas/infantiles/"La dama y el bagavundo.png"  peliculas/infantiles/"la dama y el vagabundo.png"
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh
+$ mv peliculas/infantiles/Madagaskar.js  peliculas/infantiles/Madagascar.js
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh
+$ mv peliculas/terror/"El hexorcista.xls" peliculas/terror/"El exorcista.xls"
+
+
+4)
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh
+$ rm peliculas/accion/"Smooth criminal.txt"
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh
+$ rm peliculas/terror/"We will rock you.js"
+
+
+5)
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh
+$ touch peliculas/accion/prueba2/noBorrar.js
+
+
+6)
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh
+$ cd peliculas
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ mv accion/prueba2/noBorrar.js romanticas/prueba/noBorrar.js
+
+
+7)
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ cd ..
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh
+$ touch camada.txt
+
+
+8)
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh
+$ cd peliculas
+
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ mv terror/IT.xls infantiles/IT.xls
+
+
+9)
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ rm ../camada.txt
+
+
+10)
+alons@LAPTOP-KEHGHK6K MINGW64 ~/Desktop/dh/peliculas
+$ rm -r romanticas/prueba
