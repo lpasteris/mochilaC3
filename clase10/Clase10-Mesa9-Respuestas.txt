@@ -1,0 +1,15 @@
+Descripción del SO 
+R sistema opertivo para generar contenido mutimedia , videos y audio.
+¿Es open source o con licencia ?
+R open source
+¿Cuales son los recursos de Hard que tiene la MV? Si no se pueden ver, buscar requisitos mínimos en internet
+R KIB MEM : 3024704 Megabyte 378.088
+  KIB SWAP : 1459804  Megabyte 182.4755 gigabyte
+¿Cómo se accede a la ventana de comandos?
+control + alt + t
+¿Puedo instalar aplicaciones?¿Por que?
+R no , porque no hay permisos de root
+
+¿Hay juegos instalados? 
+R si , 2 
+Capturar una imagen del file explorer (ejemplo)
