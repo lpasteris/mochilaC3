@@ -1,0 +1,18 @@
+1.- Así como las herramientas comunes que utilizamos sirven para determinados
+propositos, los lenguajes de programacion y sus compiladores/interpretadores
+estarán limitados a ciertas características unicas de cada S.O. para
+funcionar y servir como medio para construccion de soluciones de software.
+
+2 y 3.- VirtualBox es una maquina virtual de sistemas, permite representar la
+maquina fisica por medio de un proceso que crea y ejecuta estas maquinas
+llamado Hipervisor, permitiendo que la maquina anfitriona (host) pueda
+hacerlas funcionar mediante el uso compartido de recursos de hardware, como
+lo es la capacidad de procesamiento, memoria, etc.
+
+4.- Al ser cada instancia de maquina virtual un ambiente totalmente aislado
+y separado de la maquina anfitriona y de las otras dentro del mismo host,
+la falla de una no implicará que otra de estas instancias bajo el mismo
+host lo hagan tambien. Una computadora, teniendo las opciones de hipervisor
+y virtualizacion activas, puede alojar multiples instancias de maquinas
+virtuales que no interfieren entre sí.
+
