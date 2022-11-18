@@ -1,0 +1,72 @@
+
+
+
+
+
+                      
+Introducción a la Informática
+
+Ejercitación 
+Previo a la ejercitación propuesta para el día de hoy deberán instalar la interfaz gráfica sobre el Sistema operativo ubuntu instalado en la virtualBox. Para ello tendrán que seguir las siguientes instrucciones link
+ 
+En las mesas de trabajo de forma individual deberán realizar la siguiente ejercitación: 
+Procederemos a instalar Git a través de la consola de comandos.
+Como primer paso deben verificar que tengan conexión a Internet, para esto utilizaremos el comando ping -c 2 www.digitalhouse.com.ar  (Utilizar la terminal Konsole)
+
+
+
+ 
+¡IMPORTANTE! Si existiera algún tipo de problema, revisar que el tipo de conexión de la MV esté en modo nat.
+Si no ingresamos con el usuario root, podemos cambiarnos al mismo utilizando el comando su root, a continuación, debemos introducir la contraseña establecida. 
+ 
+ 
+1.	Actualizar el sistema con sudo apt update y sudo apt upgrade
+ 
+ 
+2.	Investigar con qué comando se puede descargar el navegador Mozilla Firefox y ejecutarlo. Una vez instalado deberán abrir en la pestaña del navegador https://github.com/  abrir sus respectivas cuentas en sus navegadores y clonar la mochila en sus máquinas virtuales. 
+
+ 
+
+3.	Para clonar el repositorio tener en cuenta lo explicado en el siguiente documento. Link  
+4.	Una vez clonado el repositorio, deberán trabajar en sus respectivas ramas. Realizarán la siguiente ejercitación:
+ 
+
+En formato TXT,  resolver el siguiente cuestionario:				
+Con toda la mesa de trabajo debatan sobre las siguientes preguntas y contesten en conjunto: 
+1.	¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?
+Porque un lenguaje de programación compila a lenguaje ensamblador el cual es ejecutado por el sistema operativo, este lenguaje ensamblador depende de 2 cosas, de la arquitectura del procesador y la interpretación que le de el sistema operativo.
+2.	¿Qué tipo de máquina virtual soporta virtualBox?. 
+
+Características de VirtualBox
+	VirtualBox es multiplataforma ya que soporta Windows, Linux, FreeBSD y Linux
+	Gratuito
+	Soporta todas las ediciones de Windows incluido Windows Server
+	Podemos omitir la virtualización asistida por hardware
+	Permite tomar instantáneas o snapshots para guardar el estado actual de una máquina virtual
+	Facilidad de administración de las imágenes ISO
+	Creación y configuración de máquinas virtuales de forma sencilla
+	Puede ser instalado en arquitecturas de 32 y 64 bits
+	Es de código abierto
+	Soporte de USB y escritorio remoto
+	Portable
+
+3.	¿Qué función cumple el hypervisor en la virtualización?
+
+Un hipervisor permite que un ordenador host preste soporte a varias máquinas virtuales invitadas mediante el uso compartido virtual de sus recursos, como la memoria y el procesamiento. Cuando se crea una máquina virtual (VM, del inglés virtual machine), esta se ejecuta sobre la base de una máquina real no virtual, por ejemplo, un ordenador. La VM, por lo tanto, depende del hardware físico, por lo que debe existir una capa adicional entre los dos niveles que se haga responsable de la administración: se trata del hipervisor, un software que se hace cargo de gestionar los recursos necesarios para su funcionamiento. Este programa, también conocido como monitor de máquina virtual o virtual machine monitor (VMM), se encarga de asignar memoria RAM, espacio en el disco duro, componentes de red o rendimiento del procesador en el marco del sistema. De esta manera, varias y diferentes máquinas virtuales pueden ejecutarse en el sistema host, ya que el hipervisor se asegura de que no interfieran entre sí y de que todas tengan a su disposición los recursos que necesiten.
+En principio, el sistema huésped (es decir, la virtualización) no percibe en absoluto las medidas de gestión del VMM: el hypervisor abstrae el hardware de tal manera que la VM asume que se encuentra un entorno de hardware establecido. Como los requisitos en relación con los programas que se ejecutan cambian constantemente, incluyendo los de las máquinas virtuales, una gran ventaja del hipervisor es que puede ir proporcionando los recursos según sea necesario. El sistema huésped tampoco se da cuenta de ello: la máquina virtual no tiene forma de reconocer la existencia de otras máquinas que se ejecuten en el mismo hardware físico.
+
+4.	Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+
+Sin lugar a duda, la virtualización se ha convertido en una de las tendencias del momento. Cuando se habla de virtualización de servidores, se hace referencia a particionar o dividir un servidor físico, en varios servidores que se suele llamar servidores virtuales, virtual machine (VM) o virtual private server (VPS).
+ 
+Cada máquina virtual es totalmente independiente a otra, por lo cual cada una de ellas puede ejecutar diferentes sistemas operativos y/o aplicaciones, aunque al mismo tiempo se encuentran dentro de un solo equipo físico.
+
+Debido a que cada máquina virtual está aislada de otras máquinas virtualizadas, en caso de ocurrir un bloqueo, problema, reinicio o cuelgue, esto no afecta a las demás máquinas virtuales.
+
+5.	Subir este archivo a la mochila del viajero desde la máquina virtual es opcional. 
+6.	pueden subir desde la máquina real
+
+No pude subirlo desde la máquina xvirtual, tuve que hacerlo desde la maquina real. 
+ 
+
+
