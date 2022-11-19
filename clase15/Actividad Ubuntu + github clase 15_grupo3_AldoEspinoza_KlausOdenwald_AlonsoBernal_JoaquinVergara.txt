@@ -1,0 +1,83 @@
+﻿Actividad Ubuntu + github clase 15_grupo3_AldoEspinoza_KlausOdenwald_AlonsoBernal_JoaquinVergara
+
+
+Joaquín Vergara
+Aldo Espinoza
+Klaus Odenwald
+Alonso Bernal
+
+
+
+
+  
+
+Comprobando conexion a internet
+
+
+
+
+  
+
+sudo apt update
+
+
+  
+
+sudo apt upgrade
+
+
+
+
+  
+
+  
+
+# Instalando Firefox
+sudo apt install firefox
+
+
+
+
+#Instalando interfaz gráfica
+sudo apt install lubuntu-desktop
+  
+
+
+
+Puede buscar el paquete de escritorio usando el comando apt o el comando apt-cache: $ apt-cache search ubuntu-desktop.
+sudo apt install gnome
+reboot
+
+
+
+
+
+
+
+● ¿Por qué un lenguaje de programación sólo puede utilizarse en algunos
+sistemas operativos y en otros no?.
+
+
+Porque un lenguaje de programación compila a lenguaje ensamblador el cual es ejecutado por el sistema operativo, este lenguaje ensamblador depende de 2 cosas, de la arquitectura del procesador y la interpretación que le de el sistema operativo.
+
+
+
+
+● ¿Qué tipo de máquina virtual soporta virtualBox?.
+
+
+GNU/Linux, Mac OS X, OS/2 Warp, Genode,​ Windows y Solaris/OpenSolaris, y dentro de ellos es posible virtualizar los sistemas operativos FreeBSD, GNU/Linux, OpenBSD, OS/2 Warp, Windows, Solaris, MS-DOS, Genode y muchos otros.
+
+
+
+
+
+
+
+
+● Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las
+demás? ¿por qué?
+
+
+Una máquina virtual es un software que crea una capa independiente donde se emula el funcionamiento de un ordenador real con todos los componentes de hardware que necesita para funcionar (disco duro, memoria RAM, tarjetas de red, tarjeta gráfica, etc.) y que puede ejecutar cualquier sistema operativo o programa, tal y como lo haría un ordenador real. Toda esta emulación se encapsula en una serie de archivos que actúan como contendor desde el que se ejecuta la máquina virtual en una ventana de tu ordenador como si de un programa más se tratara y sin que nada de lo que suceda en el interior de esa ventana afecte al ordenador que la ejecuta.
+~
