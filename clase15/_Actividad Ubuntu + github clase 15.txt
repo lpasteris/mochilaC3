@@ -1,0 +1,17 @@
+﻿Actividad Ubuntu + github clase 15.
+
+* ¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?
+
+R: Porque un lenguaje de programación compila un lenguaje ensamblador el cual es ejecutado por el sistema operativo. Este lenguaje ensamblador depende de 2 cosas: De la arquitectura del procesador y la interpretación que le de el sistema operativo. Si en la computadora cambia la arquitectura del procesador el lenguaje ensamblador es totalmente diferente y no va a correr.
+
+* ¿Qué tipo de máquina virtual soporta virtualBox?. 
+
+R:Virtualbox es un Hypervisor de Type-2 para virtualización x86 o también conocido como Virtual Machine Monitor ya que crea y corre una o más máquinas virtuales de versiones de Windows, Linux, BSD, OS/2, Solaris, Haiku, OSx86.
+
+* ¿Qué función cumple el hypervisor en la virtualización?
+
+R:Un hipervisor permite que un ordenador host preste soporte a varias máquinas virtuales invitadas mediante el uso compartido virtual de sus recursos, como la memoria y el procesamiento.
+
+* Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+
+R:Si alguna de ellas falla, no afectará al funcionamiento del resto. Esto es porque las máquinas virtuales de procesos se ejecutan en un mismo servidor para ejecutar varias instancias de la misma aplicación de forma separada.
