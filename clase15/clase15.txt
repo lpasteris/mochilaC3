@@ -1,0 +1,17 @@
+- Comando para instalar Mozilla Firefox.
+sudo apt-get update
+sudo apt-get install firefox
+
+- ¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?. 
+Si bien la mayoría de lenguajes de programación puedes usarse en cualquier S.O. mientras tengamos el interprete/compilador, dependerá la arquitectura de sistema, plataforma y librerias que dependen del nucleo del sistema. (ejemplo: Swift hace unos años no era soportado por Windows)
+
+- ¿Qué tipo de máquina virtual soporta virtualBox?. 
+Maquinas virtuales de sistemas, conocidos como «sistemas invitados», dentro de otro sistema operativo «anfitrión», cada uno con su propio ambiente virtual.
+Emulan un ordenador completo, tiene su propio disco duro, memoria, tarjeta gráfica y demás componentes de hardware, aunque todos ellos son virtuales.
+
+- ¿Qué función cumple el hypervisor en la virtualización?
+Un hipervisor permite que un ordenador host preste soporte a varias máquinas virtuales invitadas mediante el uso compartido virtual de sus recursos, como la memoria y el procesamiento.
+
+- Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+Cada maquina virtual es totalmente independiente a otra, por lo cual cada una de ellas puede ejecutar diferentes sistemas operativos y/o aplicaciones, aunque al mismo tiempo se encuentran dentro de un solo equipo físico.
+Debido a que cada maquina virtual esta aislada de otras maquinas virtualizadas, en caso de ocurrir un bloqueo, problema, reinicio o cuelgue, esto no afecta a las demás máquinas virtuales.
