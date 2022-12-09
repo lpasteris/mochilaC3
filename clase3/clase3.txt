@@ -1,0 +1,82 @@
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop
+$ cd dh/
+
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh
+$ ls
+peliculas/
+
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh
+$ cd peliculas/
+
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh/peliculas
+$ ls
+accion/  comedia/  infantiles/  romanticas/  terror/
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh
+$ ls
+peliculas/
+
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh
+$ cd peliculas/
+
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh/peliculas
+$ ls
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh/peliculas
+$ cd accion/
+
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh/peliculas/accion
+$ ls
+ cars.jpg  'diario de una pasion.js'  'el hexorcista.xls'  'smooth criminal.txt'
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh
+$ cd peliculas/
+
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh/peliculas
+$ ls
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh/peliculas
+$ cd comedia
+
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh/peliculas/comedia
+$ ls
+ it.xls   madagaskar.js  'mision imposible.png'  'orgullo y prejuicio.txt'
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh
+$ cd peliculas/
+
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh/peliculas
+$ ls
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh/peliculas
+$ cd infantiles/
+
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh/peliculas/infantiles
+$ ls
+'el juego del miedo.xls'   intenzamente.txt  'rapido y furioso.pdf'   titanic.jpg
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh
+$ cd peliculas/
+
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh/peliculas
+$ ls
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh/peliculas
+$ cd romanticas/
+
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh/peliculas/romanticas
+$ ls
+ annabelle.js  'la mascara.js'  'los vengadores.js'   pocahontas.jpg
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh
+$ cd peliculas/
+
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh/peliculas
+$ ls
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh/peliculas
+$ cd terror/
+
+luana_qjfmrps@Luana-Carvajal MINGW64 ~/Desktop/dh/peliculas/terror
+$ ls
+'la dama y el bagavundo.png'  'que paso ayer.pdf'  'we will rock you.js'  'yo antes de ti.xls'
