@@ -1,0 +1,28 @@
+Actividad Clase 21 - Alonso Bernal
+
+¿Qué puerto o puertos utilizan las siguientes aplicaciones?
+
+Zoom 		-> tcp 5644, udp 6544
+Discord 	-> tcp 443, udp 50000-65535
+Google Meet 	-> tcp 443, udp 3478, 19302-19309
+WhatsApp Web 	-> tcp: 80, 443, 4244, 5222, 5223, 5228, 5242, 50318, 5923, udp: 3478, 45395, 50318, 59234
+MySQL 		-> tcp 3306, udp 3306
+Git 		-> tcp 2300-2400 47624, udp 2300-2400 47624
+Secure Sockets Layer (SSL) -> 
+HTTP 		-> user configured
+Virtual Box 	-> tcp 2222, 22
+VPN 		-> tcp 9555
+Microsoft Outlook -> 
+File Transfer Protocol (FTP) -> tcp 21
+Microsoft Word 	-> 
+Skype 		-> tcp y udp user connfigured
+EPIC Games 	-> tcp: 433, 3478-3479, 5060, 5062, 5222, 6250, 12000-65000, udp: 3478-3479, 5060, 5062, 6250, 12000-65000
+FIFA 21 	-> tcp: 3569, 8080, 9946, 9988, 10000-20000, 42124, udp: 3659, 9000-9999
+Spotify 	-> tcp 4070, udp 4070
+TeamViewer	-> tcp 5900
+Netflix 	-> tcp 80, 443
+
+3 adicionales:
+Torrent		-> tcp 25565
+PES21 (play4)	-> tcp: 1935, 3478-3480, udp: 3074, 3478-3479, 5730-5731, 5739
+God Of War (play4) -> tcp: 3478-3480, udp: 3074, 3478-3479
